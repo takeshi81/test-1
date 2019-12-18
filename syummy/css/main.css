@@ -195,7 +195,8 @@ body {
   line-height: 1.5;
   color: #821D30;
   text-align: left;
-  background-color: #F5F2ED; }
+  background-color: #F5F2ED;
+  padding-top: 20px; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -2264,17 +2265,48 @@ input[type="button"].btn-block {
   width: 130px;
 }
 .help-title{
-  margin: 20px 0 100px 0 ;
-}
-.sub-title{
-  text-align: left;
-  padding-left: 10px;
-}
-.sub-title h3{
-  margin-bottom: 0em;
-  font-weight: 600;
+  margin: 40px 0 90px 0 ;
 }
 
+/*shopのhelp*/
+.sub-title{
+  text-align: left;
+  padding-left: 15px;
+}
+.sub-title h4{
+  margin-bottom: 0em;
+  font-weight: 700;
+}
+.explanation{
+  margin-left: 15px;
+  text-align: left;
+}
+.explanation h5{
+  line-height:30px;
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.help-font-weight{
+  font-weight: 500;
+}
+/*Closeボタンの装飾*/
+.close-btn{
+  margin:0 auto;
+  width: 80%;
+  padding: 5px 0;
+  margin-top:50px;
+  margin-bottom: 50px; 
+  background-color:#FEF2ED;
+  border:solid 0.1rem;
+  border-radius: 5px;
+  filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.4));
+}
+.close-btn button{
+  font-size: 26px;
+  font-weight:600;
+  
+}
 .dropup,
 .dropright,
 .dropdown,
