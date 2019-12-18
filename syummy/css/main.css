@@ -203,12 +203,22 @@ body {
 hr {
   box-sizing: content-box;
   height: 0;
-  overflow: visible; }
+  overflow: visible; 
+}
+#help-hr hr{
+  /*線の変更*/
+  width: 90%;
+  border-color: #AB4174;
+  border-width: 0.5px 0 0 0 ;
+  border-style: solid;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
-
+.help-title h3{
+  font-weight: 400;
+}
 p {
   margin-top: 0;
   margin-bottom: 1rem; }
@@ -609,9 +619,7 @@ pre {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+  flex-wrap: wrap; }
 
 .no-gutters {
   margin-right: 0;
@@ -2241,6 +2249,31 @@ input[type="button"].btn-block {
   @media (prefers-reduced-motion: reduce) {
     .collapsing {
       transition: none; } }
+.cancel-button{
+  padding-left:0;
+}
+.dropdown-adjust{
+  padding-right:0;
+}
+#syummy-title{
+  margin-top: 10px;
+  
+}
+#syummy-title img{
+  margin: 0 auto;
+  width: 130px;
+}
+.help-title{
+  margin: 20px 0 100px 0 ;
+}
+.sub-title{
+  text-align: left;
+  padding-left: 10px;
+}
+.sub-title h3{
+  margin-bottom: 0em;
+  font-weight: 600;
+}
 
 .dropup,
 .dropright,
@@ -2327,7 +2360,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-bottom: 0.125rem; }
 
-.dropup .dropdown-toggle::after {
+.dropup .down-toggle::after {
   display: inline-block;
   margin-left: 0.255em;
   vertical-align: 0.255em;
@@ -2337,7 +2370,7 @@ input[type="button"].btn-block {
   border-bottom: 0.3em solid;
   border-left: 0.3em solid transparent; }
 
-.dropup .dropdown-toggle:empty::after {
+.dropup .down-toggle:empty::after {
   margin-left: 0; }
 
 .dropright .dropdown-menu {
