@@ -94,11 +94,12 @@ body.shop.top > .container {
 
 /* ナビゲーション */
 .btn-nav__close {
-  width: 1.8rem;
+  width: 34px;
   height: auto; }
 
 .btn-nav__menu {
-  width: 1.5rem;
+  margin-top:15px;
+  width: 40px;
   height: auto; }
 
 /* ハンバーガーメニュー */
