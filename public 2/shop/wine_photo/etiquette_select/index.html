@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html lang="en" class="h-100"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/css/main.css">
+  <title>Take or select photo | SYUMMY</title>
+</head><body class="d-flex flex-column h-100 shop wine_photo etiquette_select">
+  
+<nav class="navbar navbar-light fixed-top">
+  <div class="container row">
+    <div class="col-2">
+      <a href="/shop/top">
+        <button class="btn p-0" type="button">
+          <img src="/images/btn-close.svg" class="btn-nav__close">
+        </button>
+      </a>
+    </div>
+    <div class="col-10">
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <main id="home" class="text-center home-main position-relative mx-2">
+  
+    <div class="h-100 position-absolute home-photo px-5">
+  <form action="/shop/wine_photo/etiquette_shot/" method="post" data-netlify="true">
+    <button type="submit" class="btn">
+      <img src="/images/btn-photo__shot.svg" alt="take photo" class="w-100">
+    </button>
+  </form>
+  <p>SELECT</p>
+  <button type="button" class="btn" data-toggle="modal" data-target="#modalSelectPhotos">
+    <img src="/images/btn-photo__select.svg" alt="select picture" class="w-100">
+  </button>
+</div>
+<!-- Modal: Select photos -->
+<div class="modal fade" id="modalSelectPhotos" tabindex="-1" role="dialog" aria-labelledby="modalSelectPhotosTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <form action="/shop/wine_photo/etiquette_dialog/" method="post" data-netlify="true">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalSelectPhotosTitle">Select photo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group text-left">
+            <label for="wineEtiquettePicture">Etiquette Picture</label>
+            <input type="file" class="form-control-file mb-2" id="wineEtiquettePicture">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+  
+  </main>
+</div>
+
+<div class="modal fade" id="modalLogout" tabindex="-1" role="dialog" aria-labelledby="modalLogoutTitle" aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLogoutTitle">Logout?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+        <button type="submit" class="btn btn-primary">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.bundle.js"></script>
+</body>
+</html>

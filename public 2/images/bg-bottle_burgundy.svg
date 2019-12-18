@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="537" height="2080.386" viewBox="0 0 537 2080.386">
+  <g id="グループ_612" data-name="グループ 612" transform="translate(-5857.5 -5254.838)">
+    <g id="グループ_611" data-name="グループ 611">
+      <g id="グループ_610" data-name="グループ 610" transform="translate(5566 5065)">
+        <g id="グループ_587" data-name="グループ 587" transform="translate(-2609.962 2193.666)">
+          <g id="グループ_575" data-name="グループ 575" transform="translate(2897.855 -1925.835)">
+            <path id="パス_2114" data-name="パス 2114" d="M3253.39-1458.717l-5.959-522.027a23.068,23.068,0,0,0-23.052-23.084H3104.46a23.064,23.064,0,0,0-23.052,23.084l-2.99,522.027c-1.473,36.611-25.142,53.8-42.924,63.924-81.834,46.584-139.048,137.342-139.048,259.5L2898.63-6.133c0,45.479,37.161,82.692,82.578,82.692h366.486c45.417,0,82.575-37.21,82.575-82.692l2.186-1129.156c0-123.68-64.213-212.918-146.047-259.5C3268.478-1407.137,3255.125-1418.768,3253.39-1458.717Z" transform="translate(-2892.445 1925.835)" fill="#a45d68"/>
+          </g>
+        </g>
+        <line id="線_108" data-name="線 108" x2="182" transform="translate(471.5 667.5)" fill="none" stroke="#f5f2ed" stroke-width="7" stroke-dasharray="15"/>
+        <line id="線_109" data-name="線 109" x2="537" transform="translate(291.5 964.5)" fill="none" stroke="#f5f2ed" stroke-width="7" stroke-dasharray="15"/>
+        <line id="線_110" data-name="線 110" x2="537" transform="translate(291.5 1355.5)" fill="none" stroke="#f5f2ed" stroke-width="7" stroke-dasharray="15"/>
+        <path id="パス_2182" data-name="パス 2182" d="M0,0H537" transform="translate(291.5 2014.5)" fill="#a45d68" stroke="#f5f2ed" stroke-width="7" stroke-dasharray="15"/>
+        <line id="線_113" data-name="線 113" x2="537" transform="translate(291.5 1667.5)" fill="none" stroke="#f5f2ed" stroke-width="7" stroke-dasharray="15"/>
+      </g>
+    </g>
+  </g>
+</svg>
