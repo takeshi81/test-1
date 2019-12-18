@@ -98,7 +98,7 @@ body.shop.top > .container {
   height: auto; }
 
 .btn-nav__menu {
-  margin-top:15px;
+  
   width: 40px;
   height: auto; }
 
@@ -2256,6 +2256,7 @@ input[type="button"].btn-block {
 }
 .dropdown-adjust{
   padding-right:0;
+  margin-top:15px;
 }
 #syummy-title{
   margin-top: 10px;
