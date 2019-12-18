@@ -29,18 +29,18 @@ body.h-100 > .container {
 body.login > .container,
 body.top > .container,
 body.shop.wine_photo > .container {
-  background-image: url("/images/bg-bottle_red.svg");
+  background-image: url("../images/bg-bottle_red.svg");
   background-size: auto 80%;
   background-repeat: no-repeat;
   background-position: center; }
 
 body.shop.login > .container,
 body.shop.wine_photo > .container {
-  background-image: url("/images/bg-bottle_white.svg"); }
+  background-image: url("../images/bg-bottle_white.svg"); }
 
 body.top > .container,
 body.shop.top > .container {
-  background-image: url("/images/bg-bottle_burgundy.svg"); }
+  background-image: url("../images/bg-bottle_burgundy.svg"); }
 
 .home-logotype > img {
   width: 100%; }
