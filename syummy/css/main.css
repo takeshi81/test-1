@@ -2264,6 +2264,11 @@ input[type="button"].btn-block {
   margin: 0 auto;
   width: 130px;
 }
+
+
+.padding-bottom-adjust{
+  padding-bottom:50px;
+}
 .help-title{
   margin: 40px 0 90px 0 ;
 }
@@ -2300,7 +2305,7 @@ input[type="button"].btn-block {
   background-color:#FEF2ED;
   border:solid 0.1rem;
   border-radius: 5px;
-  filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.4));
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.4));
 }
 .close-btn button{
   font-size: 26px;
