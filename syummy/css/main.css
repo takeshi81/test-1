@@ -207,7 +207,7 @@ hr {
   height: 0;
   overflow: visible; 
 }
-#help-hr hr{
+#help-hr,#top-hr hr{
   /*線の変更*/
   width: 90%;
   border-color: #AB4174;
@@ -2274,6 +2274,39 @@ input[type="button"].btn-block {
 .help-title{
   margin: 40px 0 90px 0 ;
 }
+.tos-title{
+  margin: 20px 0 0 0;
+  font-weight: 200;
+}
+.tos-title h3{
+  font-size:32px;
+  
+}
+.footer-wrapper img{
+  height: 40px;
+  position: absolute;
+}
+.page-change{
+  position: relative;
+  display: flex;
+  width: 130px;
+  margin: 0 auto;
+  
+}
+.footer-text{
+  margin:0 auto;
+  letter-spacing: 3px;
+  
+}
+.footer-text p{
+  font-weight: 900;
+  margin-top: 10px;
+  
+}
+.img-right img{
+  right:0px;
+}
+
 
 /*shopのhelp*/
 .sub-title{
@@ -2297,6 +2330,26 @@ input[type="button"].btn-block {
 .help-font-weight{
   font-weight: 500;
 }
+/*利用規約*/
+.sub-title-tos{
+  text-align: center;
+  
+}
+.sub-title-tos h4{
+  line-height:30px;
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.pages{
+  
+  margin: 20px 0 20px 0;
+}
+.pages p{
+  letter-spacing: 3px;
+  font-weight: 900;
+}
+
 /*Closeボタンの装飾*/
 .close-btn{
   margin:0 auto;
