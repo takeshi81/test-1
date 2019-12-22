@@ -17,7 +17,7 @@ $(function(){
     $('#page4').hide();
 
     $('.to-page1').on('click',function(){
-        $('#page1').show();
+        $('#page1').fadeIn();
         $('#page2').hide();
         $('#page3').hide();
         $('#page4').hide();

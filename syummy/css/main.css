@@ -29,19 +29,27 @@ body.h-100 > .container {
 body.login > .container,
 body.top > .container,
 body.shop.wine_photo > .container {
-  background-image: url("../images/bg-bottle_red.svg");
+  
   background-size: auto 80%;
   background-repeat: no-repeat;
   background-position: center; }
 
 body.shop.login > .container,
 body.shop.wine_photo > .container {
-  background-image: url("../images/bg-bottle_white.svg"); }
+  background-image: url("../images/bg-bottle_red.svg");
+   }
 
 body.top > .container,
 body.shop.top > .container {
-  background-image: url("../images/bg-bottle_burgundy.svg"); }
+  background-image: url("../images/bg-bottle_white.svg");
+   }
+#top-wine_photo {
+  
+  background-image: url("../images/bg-bottle_burgundy.svg");
+  
 
+
+}
 .home-logotype > img {
   width: 100%; }
 
@@ -2311,7 +2319,9 @@ input[type="button"].btn-block {
 .img-right img{
   right:0px;
 }
-
+.cancel-button{
+  display:hide;
+}
 /*HomeのTop*/
 
 /*shopのhelp*/
@@ -2384,7 +2394,8 @@ input[type="button"].btn-block {
 .dropright,
 .dropdown,
 .dropleft {
-  position: relative; }
+  position: relative;
+   }
 
 .dropdown-toggle {
   white-space: nowrap; }
@@ -2402,23 +2413,34 @@ input[type="button"].btn-block {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
+  top: 0;
   left: 0;
   z-index: 1000;
   display: none;
   float: left;
   min-width: 10rem;
   padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
+  margin-top: 0;
   font-size: 1rem;
   color: #821D30;
-  text-align: left;
+  font-weight: 600;
+  text-align: center;
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px rgba(0, 0, 0, 0.3);
   border-radius: 0.25rem; }
 
+  .dropdown-menu button{
+    margin-bottom:20px;
+    
+    font-size: 22px;
+    font-weight:900;
+  }
+  .dropdown-menu .btn-disabled{
+    color:#D0CCC5;
+    font-size: 13px;
+  }
 .dropdown-menu-left {
   right: auto;
   left: 0; }
@@ -2541,6 +2563,10 @@ input[type="button"].btn-block {
   margin: 0.5rem 0;
   overflow: hidden;
   border-top: 1px solid #e9ecef; }
+.dropdown-menu .dropdown-tos{
+  font-size: 14px;
+
+}
 
 .dropdown-item {
   display: block;
@@ -2548,13 +2574,14 @@ input[type="button"].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #821D30;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
   border: 0; }
+  
   .dropdown-item:hover, .dropdown-item:focus {
-    color: #16181b;
+    
     text-decoration: none;
     background-color: #f8f9fa; }
   .dropdown-item.active, .dropdown-item:active {
