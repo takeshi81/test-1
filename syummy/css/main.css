@@ -1853,7 +1853,10 @@ fieldset:disabled a.btn {
   pointer-events: none; }
 
 .btn-primary {
+  width: 40%;
   color: #F1E2DC;
+  font-size: 24px;
+  font-weight: 700;
   background-color: #D17064;
   border-color: #D17064; }
   .btn-primary:hover {
@@ -1862,7 +1865,7 @@ fieldset:disabled a.btn {
     border-color: #581421; }
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(149, 63, 79, 0.5); }
-  .btn-primary.disabled, .btn-primary:disabled {
+  .btn-primary.disabled, .ary:disabled {
     color: #fff;
     background-color: #821D30;
     border-color: #821D30; }
@@ -1876,7 +1879,9 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(149, 63, 79, 0.5); }
 
 .btn-secondary {
-
+  width: 40%;
+  font-size: 24px;
+  font-weight: 700;
   background-color: #FEF2ED;
   color:#D17064;
   border-color: #D17064; 
@@ -4388,7 +4393,7 @@ a.close.disabled {
   align-items: flex-start;
   text-align: center;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding-top: 1.5rem;
  
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem; }
@@ -4397,6 +4402,8 @@ a.close.disabled {
     margin: -1rem -1rem -1rem auto; }
 .modal-header h5{
   color:#D17064;
+  font-size: 30px;
+  font-weight: 600;
 }
 .modal-title {
   margin-bottom: 0;
