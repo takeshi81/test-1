@@ -1851,21 +1851,18 @@ textarea.form-control {
 a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none; }
-
+ 
 .btn-primary {
-  width: 40%;
-  color: #F1E2DC;
-  font-size: 24px;
-  font-weight: 700;
-  background-color: #D17064;
-  border-color: #D17064; }
+  color: #fff;
+  background-color: #821D30;
+  border-color: #821D30; }
   .btn-primary:hover {
     color: #fff;
     background-color: #631624;
     border-color: #581421; }
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(149, 63, 79, 0.5); }
-  .btn-primary.disabled, .ary:disabled {
+  .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
     background-color: #821D30;
     border-color: #821D30; }
@@ -1878,32 +1875,81 @@ fieldset:disabled a.btn {
     .show > .btn-primary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(149, 63, 79, 0.5); }
 
-.btn-secondary {
+.btn-ok {
+  color: #F1E2DC;
   width: 40%;
   font-size: 24px;
   font-weight: 700;
-  background-color: #FEF2ED;
-  color:#D17064;
-  border-color: #D17064; 
-  border:solid 1px;}
+  background-color: #D17064;
+  border-color: #D17064; }
+  .btn-ok:hover {
+    color: #fff;
+    background-color: #631624;
+    border-color: #581421; }
+  .btn-ok:focus, .btn-ok.focus {
+    box-shadow: 0 0 0 0.2rem rgba(149, 63, 79, 0.5); }
+  .btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #821D30;
+    border-color: #821D30; }
+  .btn-ok:not(:disabled):not(.disabled):active, .btn-ok:not(:disabled):not(.disabled).active,
+  .show > .btn-ok.dropdown-toggle {
+    color: #fff;
+    background-color: #581421;
+    border-color: #4e111d; }
+    .btn-ok:not(:disabled):not(.disabled):active:focus, .btn-ok:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-ok.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(149, 63, 79, 0.5); }
+    
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d; }
   .btn-secondary:hover {
-    color: #D17064;
-    background-color: #FEF2ED;
-    border-color: #D17064; }
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62; }
   .btn-secondary:focus, .btn-secondary.focus {
     box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5); }
   .btn-secondary.disabled, .btn-secondary:disabled {
-    color: #D17064;
-    background-color: #FEF2ED;
-    border-color: #D17064; }
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d; }
   .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
   .show > .btn-secondary.dropdown-toggle {
-    color: #D17064;
-    background-color: #FEF2ED;
-    border-color: #D17064; }
+    color: #fff;
+    background-color: #545b62;
+    border-color: #4e555b; }
     .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-secondary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5); }
+
+.btn-back {
+  color: #D17064;
+  background-color: #FEF2ED;
+  font-size: 24px;
+  font-weight: 700;
+  width: 40%;
+  border-color: #D17064; }
+  .btn-back:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62; }
+  .btn-back:focus, .btn-back.focus {
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5); }
+  .btn-back.disabled, .btn-back:disabled {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d; }
+  .btn-back:not(:disabled):not(.disabled):active, .btn-back:not(:disabled):not(.disabled).active,
+  .show > .btn-back.dropdown-toggle {
+    color: #fff;
+    background-color: #545b62;
+    border-color: #4e555b; }
+    .btn-back:not(:disabled):not(.disabled):active:focus, .btn-back:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-back.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5); }
+
 
 .btn-success {
   color: #212529;
@@ -2288,6 +2334,7 @@ input[type="button"].btn-block {
   padding-bottom:50px;
 }
 .help-title{
+  text-align: center;
   margin: 40px 0 90px 0 ;
 }
 .tos-title{
@@ -2380,6 +2427,7 @@ input[type="button"].btn-block {
 
 /*Closeボタンの装飾*/
 .close-btn{
+  text-align: center;
   margin:0 auto;
   width: 80%;
   padding: 5px 0;
@@ -2433,7 +2481,7 @@ input[type="button"].btn-block {
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  box-shadow: 0 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px rgba(130, 138, 145, 0.5);
   border-radius: 0.25rem; }
 
   .dropdown-menu button{
@@ -4362,7 +4410,10 @@ a.close.disabled {
       max-height: none; }
     .modal-dialog-centered.modal-dialog-scrollable::before {
       content: none; }
-
+      #modal-header-logout{
+        color:#D17064;
+        font-size: 30px;
+      }
 .modal-content {
   position: relative;
   display: flex;
@@ -4389,20 +4440,33 @@ a.close.disabled {
     opacity: 0.5; }
 
 .modal-header {
-  
+  display: flex;
   align-items: flex-start;
   text-align: center;
   justify-content: space-between;
-  padding-top: 1.5rem;
- 
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #dee2e6;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem; }
-  .modal-header .close {
+.modal-header .close {
     padding: 1rem 1rem;
     margin: -1rem -1rem -1rem auto; }
-.modal-header h5{
+
+.modal-header-logout {    
+    align-items: flex-start;
+    text-align: center;
+    background-color:#FAF8F4;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem; }
+.modal-header-logout .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto; }
+.modal-header-logout h5{
+  text-align: center;
   color:#D17064;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
 }
 .modal-title {
@@ -4417,17 +4481,29 @@ text-align: center; }
   padding: 1rem; }
 
 .modal-footer {
-  
+  display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: flex-end;
   padding: 1rem;
- 
+  border-top: 1px solid #dee2e6;
   border-bottom-right-radius: 0.3rem;
   border-bottom-left-radius: 0.3rem; }
   .modal-footer > :not(:first-child) {
     margin-left: .25rem; }
   .modal-footer > :not(:last-child) {
     margin-right: .25rem; }
+.modal-footer-ok {
+  text-align: center;
+  align-items: center;
+  background-color:#FAF8F4;
+  padding: 1rem;
+  
+  border-bottom-right-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem; }
+.modal-footer-ok > :not(:first-child) {
+  margin-left: .25rem; }
+.modal-footer-ok > :not(:last-child) {
+  margin-right: .25rem; }
 
 .modal-scrollbar-measure {
   position: absolute;

@@ -1,32 +1,16 @@
 
 
+
 $(function(){
     var helpCount = 0;
-    $(".cancel-button").css("visibility","hidden");
-    $('#page1').hide();
+    $("#cancel-button-close").css("visibility","hidden");
     $('#page2').hide();
     $('#page3').hide();
     $('#page4').hide();
-    $('#help-open').hide();
-    $('#tos').on('click',function(){
-        $('.main-container').hide();
-        $('#help-open').show();
-        
-        
-        $(".cancel-button").css("visibility","visible");
-        $('#page1').show();
-        $('#top-wine_photo').css("visibility","hidden");
-       
-        $('#page2').hide();
-        $('#page3').hide();
-        $('#page4').hide();
-        $('.pages').html('<p>1/4</p>')
-        $('body,html').animate({ scrollTop: 0 }, 500);
-        helpCount = 1;
-    })
+   
 
     $('.to-page1').on('click',function(){
-        $('#page1').show();
+        $('#page1').fadeIn();
         $('#page2').hide();
         $('#page3').hide();
         $('#page4').hide();

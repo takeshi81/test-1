@@ -7,37 +7,54 @@
   <title>Shops | SYUMMY</title>
 </head><body class="d-flex flex-column h-100 shop">
   
-<nav class="navbar navbar-light mb-2">
-  <div class="container row">
-    <div class="col-2">
-      <a href="../shop/top">
-        <button class="btn p-0" type="button">
-          <img src="../images/btn-close.svg" class="btn-nav__close">
+  <nav class="navbar navbar-light mb-2">
+    <div class="container row">
+      <div class="col-2 cancel-button">
+        <a href="top/index.html">
+          <button class="btn p-0" type="button">
+            <img src="../images/btn-close.svg" class="btn-nav__close">
+          </button>
+        </a>
+      </div>
+      <div class="col-8 text-center" id="syummy-title">
+
+
+        <img src="../images/syummy-logo.png" class="btn-nav__close">
+      </div>
+      <div class="dropdown dropdown-adjust col-2">
+        <button class="btn p-0" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="../images/btn-menu.svg" class="btn-nav__menu">
         </button>
-      </a>
-    </div>
-    <div class="col-8 text-center"><img src="../images/icn-view.svg" class="btn-nav__close"></div>
-    <div class="dropdown col-2">
-      <button class="btn p-0" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <img src="../images/btn-menu.svg" class="btn-nav__menu">
-      </button>
-      <div class="dropdown-menu dropdown-menu-right bg-body btn-menu" aria-labelledby="dropdownMenu2">
-        <a href="../shop/top">
-          <button class="dropdown-item" type="button">
-            Top
-          </button>
-        </a>
-        <a href="../help">
-          <button class="dropdown-item" type="button">
-            Help
-          </button>
-        </a>
-        <button class="dropdown-item" type="button" data-toggle="modal" data-target="#modalLogout">Logout</button>
-        <button class="dropdown-item btn-disabled" type="button">SYUMMY</button>
+        <div class="dropdown-menu dropdown-menu-right bg-body btn-menu" aria-labelledby="dropdownMenu2">
+          <div class="dropdown-item dropdown-item-close">
+            <img src="../images/btn-close.svg" class="btn-nav__close">
+          </div>
+          
+          <a href="top/index.html">
+            <button class="dropdown-item" type="button">
+              Top
+            </button>
+          </a>
+          <a href="help/index.html">
+            <button class="dropdown-item" type="button">
+              Help
+            </button>
+          </a>
+          <button class="dropdown-item" type="button" data-toggle="modal" data-target="#modalLogout">Logout</button>
+          
+          <a href="tos/tos-page1/index.html">
+            <button class="dropdown-item dropdown-tos" type="button">
+              利用規約
+            </button>
+          </a>
+              
+           
+          
+          <button class="dropdown-item btn-disabled" type="button">SYUMMY</button>
+        </div>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>
 <div class="container">
   <main id="home" class="text-center home-main position-relative mx-2 ">
   
@@ -50,20 +67,17 @@
 <div class="modal fade" id="modalLogout" tabindex="-1" role="dialog" aria-labelledby="modalLogoutTitle" aria-hidden="true">
   <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header-logout">
         <h5 class="modal-title" id="modalLogoutTitle">Logout?</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
-        <button type="submit" class="btn btn-primary">OK</button>
+      <div class="modal-footer-ok">
+        <button type="button" class="btn btn-back" data-dismiss="modal">Back</button>
+        <button type="submit" class="btn btn-ok">OK</button>
       </div>
     </div>
   </div>
 </div>
-
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.bundle.js"></script>
 </body>
