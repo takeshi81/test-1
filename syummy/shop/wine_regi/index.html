@@ -15,10 +15,10 @@
           </button>
         </a>
       </div>
-      <div class="col-8 text-center" id="syummy-title">
+      <div class="col-8 text-center" id="icon-pen">
 
 
-        <img src="../../images/syummy-logo.png" class="btn-nav__close">
+        <img src="../../images/post-pen.png" class="btn-nav__close">
       </div>
       <div class="dropdown dropdown-adjust col-2">
         <button class="btn p-0" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -196,14 +196,14 @@
 <div class="btn-container">
   <div>
     <p><a href="#">
-      <button type="button" class="btn  btn-ok-wine">
+      <button type="button" class="btn  btn-ok-wine"data-toggle="modal" data-target="#modalPost">
         OK
       </button>
     </a></p>
   </div>
   <div>
     <p><a href="#">
-      <button type="button" class="btn  btn-cancel-wine">
+      <button type="button" class="btn  btn-cancel-wine"data-toggle="modal" data-target="#modalCancel">
         cancel
       </button>
     </a></p>
@@ -211,6 +211,36 @@
 </div>
 
   </main>
+</div>
+
+<div class="modal fade" id="modalPost" tabindex="-1" role="dialog" aria-labelledby="modalPostTitle" aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header-logout">
+        <h5 class="modal-title" id="modalPostTitle">Post?</h5>
+        
+      </div>
+      <div class="modal-footer-ok">
+        <button type="button" class="btn btn-back" data-dismiss="modal">Back</button>
+        <button type="submit" class="btn btn-ok">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalCancel" tabindex="-1" role="dialog" aria-labelledby="modalCancelTitle" aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header-logout">
+        <h5 class="modal-title" id="modalCancelTitle">Cancel?</h5>
+        
+      </div>
+      <div class="modal-footer-ok">
+        <button type="button" class="btn btn-back" data-dismiss="modal">Back</button>
+        <button type="submit" class="btn btn-ok">OK</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="modal fade" id="modalLogout" tabindex="-1" role="dialog" aria-labelledby="modalLogoutTitle" aria-hidden="true">

@@ -253,6 +253,10 @@ canvas {
 
 /*wine_regi_dialog*/
 /* デフォルトカラム設定 */
+
+#icon-pen{
+  width:130px;
+}
 .wine_regi .card{
   border:none;
   background:none;
@@ -321,7 +325,10 @@ canvas {
 .time-field-partition::after {
   content: '：';
 }
-
+.limit-text{
+  flex:9;
+  display: flex;
+}
 .limit-box{
   width:80%;
   display: flex;
@@ -426,7 +433,93 @@ canvas {
   height: 200px;
 }
 
+/*event_regi_dialog*/
 
+
+/*個別編集*/
+.event_regi_dialog .dropdown-menu{
+  display: none;
+}
+.event_regi_dialog .card{
+  border:solid 0;
+  background:none;
+}
+.event_regi_dialog p{
+  font-size: 20px;
+}
+
+.event_regi_dialog .column-default-field .limit-text p{
+  font-size:16px;
+  font-weight: 700;
+}
+.member-capacity-box{
+  margin-left:50px;
+  flex:5;
+}
+.member-detail{
+  
+  text-align: center;
+  display: flex;
+  width: 100%;
+  border-top: solid 1px #fff;
+}
+.member-capacity{
+  text-align: left;
+  padding-left: 20px;
+}
+.total-member{
+  margin-top:20px;
+  letter-spacing: 2px;
+  flex:5;
+}
+.total-member p{
+  font-size: 20px;
+  margin:0;
+}
+.member-count{
+  flex:5;
+}
+.member-count p{
+  font-size: 20px;
+  color:rgba(209,112,100,0.5);
+  margin:0;
+}
+
+.btn-check {
+  margin-left:30px;
+ color:#ECFFE5;
+  height:90px;
+  font-size: 24px;
+  font-weight:700;
+  background-color: #D17064;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  flex:4  
+}
+.wine-price-container{
+  text-align: center;
+  display: flex;
+  width: 100%;
+  letter-spacing: 1px;
+}
+.wine-price{
+  flex:7;
+}
+.member-sum{
+ flex:4;
+}
+.wine-explain{
+  flex:4;
+  padding-left:20px;
+  text-align: left;
+}
+#map-area .column-default-field{
+  padding-left:20px;
+  text-align: left;
+}
+.address p{
+  font-size:16px;
+}
 /* 画面下部ボタン部分 */
 
 #button-area {
@@ -2241,7 +2334,40 @@ fieldset:disabled a.btn {
     .btn-ok:not(:disabled):not(.disabled):active:focus, .btn-ok:not(:disabled):not(.disabled).active:focus,
     .show > .btn-ok.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(149, 63, 79, 0.5); }
-
+/*btn-edit*/
+.btn-edit {
+  color: #EAFFE7;
+  text-align: center;
+  margin:0 auto;
+  width: 80%;
+  padding: 5px 0;
+  margin-top:50px;
+  margin-bottom: 0px; 
+  background-color:#D17064;
+  border:solid 0.1rem;
+  border-radius: 5px;
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.4));
+  font-size: 26px;
+  font-weight:600;
+  border-color: #D17064; }
+  .btn-edit:hover {
+    color: #fff;
+    background-color: #631624;
+    border-color: #581421; }
+    .btn-edit :focus, .btn-edit .focus {
+    box-shadow: 0 0 0 0.2rem rgba(149, 63, 79, 0.5); }
+    .btn-edit.disabled, .btn-edit:disabled {
+    color: #fff;
+    background-color: #821D30;
+    border-color: #821D30; }
+    .btn-edit :not(:disabled):not(.disabled):active, .btn-edit :not(:disabled):not(.disabled).active,
+  .show > .btn-edit .dropdown-toggle {
+    color: #fff;
+    background-color: #581421;
+    border-color: #4e111d; }
+    .btn-edit :not(:disabled):not(.disabled):active:focus, .btn-edit:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-edit .dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(149, 63, 79, 0.5); }
 /*nextボタン*/
 .btn-next {
   color: #FEF2ED;
@@ -4891,12 +5017,11 @@ a.close.disabled {
     opacity: 0.5; }
 
 .modal-header {
-  display: flex;
   align-items: flex-start;
   text-align: center;
+  background-color:#FAF8F4;
   justify-content: space-between;
-  padding: 1rem 1rem;
-  border-bottom: 1px solid #dee2e6;
+  padding-top: 1.5rem;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem; }
 .modal-header .close {
