@@ -132,6 +132,116 @@ body.h-100 > .container {
 video,
 canvas {
   object-fit: scale-down; }
+/*member*/
+
+.member-title{
+  text-align: center;
+  margin: 0 0 20px 0 ;
+}
+.participant-list ol{
+  counter-reset: number; 
+  list-style:none; 
+  }
+  .participant-list ol li{
+  display: flex;
+  margin-top:10px;
+  }
+  .participant-list ol li:before{
+  counter-increment: number; 
+  content: counter(number); 
+  width: 20px;
+  
+  }
+.participant-list{
+  margin-top: 50px;
+}
+.participant-list ol{
+  padding-left:0;
+}
+.participant-list li{
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: 700;
+}
+.calender-and-time{
+  width: 100%;
+  display: flex;
+}
+.member-header-adjust{
+  display: flex;
+}
+.member-icon img{
+  height: 30px;
+  width: 30px;
+}
+.member-header-adjust p{
+  padding-left: 20px;
+  font-weight: 700;
+ 
+}
+.participant-detail{
+  width: 100%;
+}
+.participant-name{
+  padding-left: 20px;
+}
+.participant-name, .sex-age, .date-detail{
+  vertical-align: middle;
+  padding: auto 0;
+  width:33.33%;
+}
+.participant-name p, .sex-age p, .date-detail p {
+
+  margin:0;
+}
+.participant .text-participant{
+  width:30%;
+}
+.text-participant-member {
+  width: 70%;
+}
+.calender-container,.time-container{
+  padding: 10px 0;
+  width: 50%;
+}
+.participant-regi-detail{
+  vertical-align: middle;
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+.sex-age{
+  display: flex;
+
+
+}
+.sex-age p{
+  margin: 0 auto;
+  line-height: 30px;
+  font-size: 10px;
+}
+.sex-age-box{
+  display: flex;
+  width: 70%;
+  margin-left: 40px;
+}
+.regi-date p{
+  margin: 0;
+}
+.date-detail-box{
+  position: absolute;
+  right:0;
+  
+}
+.date-detail{
+  position: relative;
+}
+.date-detail p{
+  font-size: 10px;
+  letter-spacing:1px;
+  text-align: left;
+  font-weight: 200;
+}
 /*event_regi*/
 .event_regi .card {
   background-color: #F5F2ED; }
@@ -228,7 +338,15 @@ hr {
 }
 .help-hr,#top-hr hr{
   /*線の変更*/
-  width: 90%;
+  width: 100%;
+  border-color: #AB4174;
+  border-width: 1px 0 0 0 ;
+  border-style: solid;
+  
+}
+.member-hr,#member-hr hr{
+  /*線の変更*/
+  width: 100%;
   border-color: #AB4174;
   border-width: 1px 0 0 0 ;
   border-style: solid;
