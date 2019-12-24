@@ -21,8 +21,12 @@ body.h-100 > .container {
 .home-photo {
   font-weight: bold;
   color: #821D30; }
-
+.
 .view_post {
+  background-color: white;
+  color: #D17064; 
+}
+.event_regi{
   background-color: white;
   color: #D17064; }
 
@@ -5920,7 +5924,7 @@ button.bg-dark:focus {
 
 .mb-2,
 .my-2 {
-  margin-bottom: 0.5rem !important; }
+  margin-bottom: 2rem !important; }
 
 .ml-2,
 .mx-2 {
