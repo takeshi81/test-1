@@ -132,7 +132,14 @@ body.h-100 > .container {
 video,
 canvas {
   object-fit: scale-down; }
-
+/*event_regi*/
+.event_regi .card {
+  background-color: #F5F2ED; }
+.event_regi .card.event-success {
+    background-color: #F5E491; }
+  
+.event_regi .card.event-full {
+    background-color: #FFC8CD; }
 /* POST一覧 */
 .view_post .card {
   background-color: #F5F2ED; }
