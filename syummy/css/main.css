@@ -26,7 +26,7 @@ body.h-100 > .container {
   background-color: white;
   color: #D17064; 
 }
-.event_regi{
+.event_post{
   background-color: white;
   color: #D17064; }
 
@@ -242,15 +242,26 @@ canvas {
   text-align: left;
   font-weight: 200;
 }
+/*event_post*/
+.event_post .card {
+  background-color: #F5F2ED; }
+.event_post .card.event-success {
+    background-color: #F5E491; }
+  
+.event_post .card.event-full {
+    background-color: #FFC8CD; }
+
+
 /*event_regi*/
 .event_regi .card {
-  background-color: #F5F2ED; }
+  background-color: #F5F2ED;
+  border:none; }
+  
 .event_regi .card.event-success {
     background-color: #F5E491; }
   
 .event_regi .card.event-full {
     background-color: #FFC8CD; }
-
 /*wine_regi_dialog*/
 /* デフォルトカラム設定 */
 
