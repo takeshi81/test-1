@@ -27,7 +27,7 @@ body.h-100 > .container {
   color: #D17064; 
 }
 .event_post{
-  background-color: white;
+  
   color: #D17064; }
 
   body.login > .container,
@@ -243,14 +243,22 @@ canvas {
   font-weight: 200;
 }
 /*event_post*/
-.event_post .card {
-  background-color: #F5F2ED; }
-.event_post .card.event-success {
-    background-color: #F5E491; }
-  
-.event_post .card.event-full {
-    background-color: #FFC8CD; }
 
+.event_post .limit-text-container{
+  display: flex;
+  padding-left:20px;
+  flex:1;
+  margin:0;
+}
+.event_post .limit-text-container p{
+  line-height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.event_post .column-default-field{
+  display:flex;
+}
 
 /*event_regi*/
 .event_regi .card {
@@ -451,15 +459,20 @@ canvas {
 
 /*個別編集*/
 
-.event_regi_dialog .card{
+.event_regi_dialog .card,
+.event_post .card{
   border:solid 0;
   background:none;
 }
-.event_regi_dialog p{
+.event_regi_dialog p,
+.event_post p
+{
   font-size: 20px;
 }
 
-.event_regi_dialog .column-default-field .limit-text p{
+.event_regi_dialog .column-default-field .limit-text p,
+.event_post .column-default-field .limit-text p
+{
   font-size:16px;
   font-weight: 700;
 }
