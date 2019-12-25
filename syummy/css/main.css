@@ -259,6 +259,7 @@ canvas {
 .event_post .column-default-field{
   display:flex;
 }
+#time-eria 
 /*event_post2*/
 .event_post2{
   background-color:#81C6C9;
@@ -279,7 +280,43 @@ canvas {
   color: #AB4174;
 }
 /*event_post3*/
+.event_post3{
+  background-color: #FFC8CD;
+  color: #3B4783;
+}
+.event_post3 .member-count p{
+  color:rgba(171, 65, 116,0.5);
+}
+.event_post3 .btn-check{
+  background-color:#3B4783;
+}
+.event_post3 .btn-ok-wine{
+  background-color: #3B4783;
+  border-color: #3B4783;
+}
+.event_post3 .btn-cancel-wine{
+  background-color: #EAFFE7;
+  color: #3B4783;
+}
 /*event_post4*/
+.event_post4{
+  background-color: #F5E491;
+  color: #AB4174;
+}
+.event_post4 .member-count p{
+  color:rgba(171, 65, 116,0.5);
+}
+.event_post4 .btn-check{
+  background-color:rgb(171, 65, 116);
+}
+.event_post4 .btn-ok-wine{
+  background-color: #AB4174;
+  border-color: #AB4174;
+}
+.event_post4 .btn-cancel-wine{
+  background-color: #EAFFE7;
+  color: #AB4174;
+}
 /*event_regi*/
 .event_regi .card {
   background-color: #F5F2ED; }
