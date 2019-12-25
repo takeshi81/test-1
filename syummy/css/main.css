@@ -682,7 +682,7 @@ canvas {
   width:48%;
   border:none;
 }
-.shop,.login .form-control{
+.shop .login .form-control{
   border: solid 2px #821D30;
 
 }
