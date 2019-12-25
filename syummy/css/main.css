@@ -254,14 +254,16 @@ canvas {
 
 /*event_regi*/
 .event_regi .card {
-  background-color: #F5F2ED;
-  border:none; }
-  
+  background-color: #F5F2ED; }
+
+.card > a {
+  color: #D17064; }
+
 .event_regi .card.event-success {
-    background-color: #F5E491; }
-  
+  background-color: #F5E491; }
+
 .event_regi .card.event-full {
-    background-color: #FFC8CD; }
+  background-color: #FFC8CD; }
 /*wine_regi_dialog*/
 /* デフォルトカラム設定 */
 
@@ -448,9 +450,7 @@ canvas {
 
 
 /*個別編集*/
-.event_regi_dialog .dropdown-menu{
-  display: none;
-}
+
 .event_regi_dialog .card{
   border:solid 0;
   background:none;

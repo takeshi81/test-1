@@ -8,186 +8,259 @@
 </head><body class="d-flex flex-column h-100 shop event_regi_dialog">
   <nav class="navbar navbar-light mb-2">
     <div class="container row">
-      <div class="col-2 cancel-button">
-        <a href="../top/index.html">
+      <div class="col-2 cancel-button" id="cancel-button-close">
+        <a href="">
           <button class="btn p-0" type="button">
             <img src="../../images/btn-close.svg" class="btn-nav__close">
           </button>
         </a>
       </div>
-      <div class="col-8 text-center" id="btn-serch">
+      <div class="col-8 text-center" id="icon-pen">
 
 
-        <img src="../../images/search-solid.png" class="btn-nav__close">
+        <img src="../../images/post-pen.png" class="btn-nav__close">
       </div>
       <div class="dropdown dropdown-adjust col-2">
+        <button class="btn p-0" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="../../images/btn-menu.svg" class="btn-nav__menu">
+        </button>
+        <div class="dropdown-menu dropdown-menu-right bg-body btn-menu" aria-labelledby="dropdownMenu2">
+          <div class="dropdown-item dropdown-item-close">
+            <img src="../../images/btn-close.svg" class="btn-nav__close">
+          </div>
+          
+          <a href="index.html">
+            <button class="dropdown-item" type="button">
+              Top
+            </button>
+          </a>
+          <a href="../help/index.html">
+            <button class="dropdown-item" type="button">
+              Help
+            </button>
+          </a>
+          <button class="dropdown-item" type="button" data-toggle="modal" data-target="#modalLogout">Logout</button>
+          
+          <a href="../tos/tos-page1/index.html">
+            <button class="dropdown-item dropdown-tos" type="button">
+              利用規約
+            </button>
+          </a>
+              
+           
+          
+          <button class="dropdown-item btn-disabled" type="button">SYUMMY</button>
+        </div>
       </div>
     </div>
   </nav>
 <div class="container">
-  <main id="home" class="text-center home-main position-relative mx-2">
-    <section class="card entry mb-3">
-      <div class="card-body row pr-0">
-        <div class="col-8">
-          <img src="../../images/photo-bottle__cover.jpg" class="w-100">
-        </div>
-        <div class="col-4 row px-0 wine-right-img">
-          <div class="col-12 wine-right-img-top wine-img">
-            <img src="../../images/photo-bottle__front.jpg" class="w-100">
+  <main id="home" class="text-center home-main position-relative mx-2">   
+    <div class="container">
+      <main id="home" class="text-center home-main position-relative mx-2">  
+        <section class="card entry mb-3">
+          <div class="card-body row pr-0">
+            <div class="col-8">
+              <img src="../../images/photo-bottle__cover.jpg" class="w-100">
+            </div>
+            <div class="col-4 row px-0 wine-right-img">
+              <div class="col-12 wine-right-img-top wine-img">
+                <img src="../../images/photo-bottle__front.jpg" class="w-100">
+              </div>
+              <div class="col-12 wine-right-img-bottom wine-img">
+                <img src="../../images/photo-bottle__back.jpg" class="w-100">
+              </div>
+            </div>
           </div>
-          <div class="col-12 wine-right-img-bottom wine-img">
-            <img src="../../images/photo-bottle__back.jpg" class="w-100">
-          </div>
-        </div>
+        </section>
+      
+    <div class="for-hr"></div>
+    <div class="column-default-container" id="calendar-area">
+      <div class="column-default-icon">
+        <img src="../../images/icn-calendar.svg" class="column-icon" alt="calendar">
       </div>
-    </section>
-  
-<div class="for-hr"></div>
-<div class="column-default-container" id="calendar-area">
-  <div class="column-default-icon">
-    <img src="../../images/icn-calendar.svg" class="column-icon" alt="calendar">
-  </div>
-  <div class="column-default-field">
-    <p>2019/11/23</p>
-  </div>
-</div>
-
-<div class="column-default-container" id="time-area">
-  <div class="column-default-icon">
-    <img src="../../images/icn-clock.svg" class="column-icon" alt="time" height="30px">
-  </div>
-  <div class="column-default-field">
-    <p>19:00~21:00</p>
-  </div>
-</div>
-
-<div class="column-default-container" id="limit-area">
-  <div class="column-default-icon">
-    <img src="../../images/hourglass-end-solid.png" class="column-icon" alt="price">
-  </div>
-  <div class="column-default-field">
-    <div class="limit-text">
-      <p>参加締め切り　　</p>
-      <p>開催24時間前</p>
-    </div>
-  </div> 
-</div>
-
-<div class="column-default-container" id="people-area">
-  <div class="column-default-icon"width="20%">
-    <img src="../../images/people.png" class="column-icon" alt="people" style="height: 30px;">
-  </div>
-  <div class="member-capacity-box">
-    <div class="member-capacity"><p>14</p></div>
-    <div class="member-detail">
-      <div class="total-member"><p>7/14</p></div>
-      <div class="member-count">
-        <div class="member-male"><p>M:3</p></div>
-        <div class="member-female"><p>F:4</p></div>
+      <div class="column-default-field">
+        <input type="text" class="column-input">
       </div>
-    </div>
-  </div>
-  
-  <a href="../event_member/index.html"><button type="button"class="btn-check">check</button></a>
-</div>
-
-<div class="column-default-container" id="price-area">
-  <div class="column-default-icon">
-    <img src="../../images/price.png" class="column-icon" alt="price">
-  </div>
-  <div class="column-default-field">
-    <div class="wine-price-container">
-      <p class="wine-price">¥250,000</p>
-      <p>/</p>
-      <p class="member-sum">7</p>
     </div>
     
-  </div>
-</div>
-
-<div class="column-default-container" id="memo-area">
-  <div class="column-default-icon">
-    <img src="../../images/memo.png" class="column-icon" alt="memo">
-  </div>
-  <div class="wine-explain">
-    <p>入手困難な希少ワイン〇〇をご用意しました。ソムリエがそれぞれのワインの背景・味わい方を解説します。ワイン通の方にオススメです。</p　class="wine-explain">
-  </div>
-</div>
-
-<div class="column-default-container" id="map-area">
-  <div class="column-default-icon">
-    <img src="../../images/map.png" class="column-icon" alt="map">
-  </div>
-  <div class="column-default-field">
-    <div class="address">
-      <p>HAIKARA BUILDING 2F,<br>12-13 Aoyama,Minato-ku,Tokyo</p>
-    </div>
-  </div>
-</div>
-
-<div class="column-default-container" id="shop-area">
-  <div class="column-default-icon">
-    <img src="../../images/shop.png" class="column-icon" alt="shop">
-  </div>
-  <div class="column-default-field">
-    <p>Wine　&　Grill</p>
-  </div>
-</div>
-
-
-<div class="btn-container">
-  <div>
-    <p><a href="../wine_regi/index.html">
-      <button type="button" class="btn  btn-ok-wine">
-        Edit
-      </button>
-    </a></p>
-  </div>
-  <div>
-    <p><a href="#">
-      <button type="button" class="btn  btn-cancel-wine" data-toggle="modal" data-target="#modalCancel">
-        cancel
-      </button>
-    </a></p>
-  </div>
-</div>
-
-  </main>
-</div>
-
-
-
-<div class="modal fade" id="modalCancel" tabindex="-1" role="dialog" aria-labelledby="modalCancelTitle" aria-hidden="true">
-  <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header-logout">
-        <h5 class="modal-title" id="modalCancelTitle">Cancel?</h5>
-        
+    <div class="column-default-container" id="time-area">
+      <div class="column-default-icon">
+        <img src="../../images/icn-clock.svg" class="column-icon" alt="time" height="30px">
       </div>
-      <div class="modal-footer-ok">
-        <button type="button" class="btn btn-back" data-dismiss="modal">Back</button>
-        <button type="submit" class="btn btn-ok">OK</button>
+      <div class="column-default-field" id="time-field">
+        <div class="time-field-elements" id="time-field-first">
+          <div style="flex: 1; text-align: center;"><p>Start</p></div>
+          <div style="flex: 1;" class="time-field-partition"><input type="text" class="column-input time-field-input"></div>
+          <div style="flex: 1;"><input type="text" class="column-input time-field-input"></div>
+        </div>
+        <div class="time-field-elements" id="time-field-second">
+          <div style="flex: 1; text-align: center;"><p>▼</p></div>
+          <div style="flex: 1;"></div>
+          <div style="flex: 1;"></div>
+        </div>
+        <div class="time-field-elements" id="time-field-third">
+          <div style="flex: 1; text-align: center;"><p>Finish</p></div>
+          <div style="flex: 1;" class="time-field-partition"><input type="text" class="column-input time-field-input"></div>
+          <div style="flex: 1;"><input type="text" class="column-input time-field-input"></div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-
-<div class="modal fade" id="modalLogout" tabindex="-1" role="dialog" aria-labelledby="modalLogoutTitle" aria-hidden="true">
-  <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header-logout">
-        <h5 class="modal-title" id="modalLogoutTitle">Logout?</h5>
-        
+    
+    <div class="column-default-container" id="limit-area">
+      <div class="column-default-icon">
+        <img src="../../images/hourglass-end-solid.png" class="column-icon" alt="price">
       </div>
-      <div class="modal-footer-ok">
-        <button type="button" class="btn btn-back" data-dismiss="modal">Back</button>
-        <button type="submit" class="btn btn-ok">OK</button>
+      
+      <div class="limit-box">
+        <div class="limit-text-container">
+          <div class="limit-apply"><p class="apply-text">申し込み期限</p></div>
+          <div class="limit-by-holding"><p class="holding-text">開催</p></div>
+        </div>
+        <div class="limit-translate column-default-field">
+          <input type="text" placeholder="翻訳"class="column-input limit-translate-placeholder">
+        </div>
+        <div class="limit-hours"><p>時間前</p></div>
       </div>
     </div>
-  </div>
-</div>
-<script src="../../js/jquery.js"></script>
-<script src="../../js/bootstrap.bundle.js"></script>
-</body>
+    
+    <div class="column-default-container" id="people-area">
+      <div class="column-default-icon">
+        <img src="../../images/people.png" class="column-icon" alt="people" style="height: 30px;">
+      </div>
+      <div class="column-default-field" id="people-field">
+        <div class="people-field-elements" id="people-field-minimum" style="margin-bottom: 20px;">
+          <div class="people-field-label">
+            <p>Minimun</p>
+          </div>
+          <div class="people-field-input">
+            <div class="people-field-input-part">
+              <input class="people-field-input-part-element" type="text">
+            </div>
+            <div class="people-field-input-btn">
+              <button type="button"><p>▼</p></button>
+            </div>
+          </div>
+        </div>
+        <div class="people-field-elements" id="people-field-max">
+          <div class="people-field-label">
+            <p>Max</p>
+          </div>
+          <div class="people-field-input">
+            <div class="people-field-input-part">
+              <input class="people-field-input-part-element" type="text">
+            </div>
+            <div class="people-field-input-btn">
+              <button type="button"><p>▼</p></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column-default-container" id="price-area">
+      <div class="column-default-icon">
+        <img src="../../images/price.png" class="column-icon" alt="price">
+      </div>
+      <div class="column-default-field">
+        <input type="text" class="column-input">
+      </div>
+    </div>
+    
+    <div class="column-default-container" id="memo-area">
+      <div class="column-default-icon">
+        <img src="../../images/memo.png" class="column-icon" alt="memo">
+      </div>
+      <div class="column-default-field">
+        <input type="text" id="memo-field" class="column-input">
+      </div>
+    </div>
+    
+    <div class="column-default-container" id="map-area">
+      <div class="column-default-icon">
+        <img src="../../images/map.png" class="column-icon" alt="map">
+      </div>
+      <div class="column-default-field">
+        <input type="text" class="column-input">
+      </div>
+    </div>
+    
+    <div class="column-default-container" id="shop-area">
+      <div class="column-default-icon">
+        <img src="../../images/shop.png" class="column-icon" alt="shop">
+      </div>
+      <div class="column-default-field">
+        <input type="text" class="column-input">
+      </div>
+    </div>
+    
+    
+    <div class="btn-container">
+      <div>
+        <p><a href="#">
+          <button type="button" class="btn  btn-ok-wine"data-toggle="modal" data-target="#modalPost">
+            OK
+          </button>
+        </a></p>
+      </div>
+      <div>
+        <p><a href="#">
+          <button type="button" class="btn  btn-cancel-wine"data-toggle="modal" data-target="#modalCancel">
+            cancel
+          </button>
+        </a></p>
+      </div>
+    </div>
+    
+      </main>
+    </div>
+    
+    <div class="modal fade" id="modalPost" tabindex="-1" role="dialog" aria-labelledby="modalPostTitle" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header-logout">
+            <h5 class="modal-title" id="modalPostTitle">Post?</h5>
+            
+          </div>
+          <div class="modal-footer-ok">
+            <button type="button" class="btn btn-back" data-dismiss="modal">Back</button>
+            <button type="submit" class="btn btn-ok">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="modalCancel" tabindex="-1" role="dialog" aria-labelledby="modalCancelTitle" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header-logout">
+            <h5 class="modal-title" id="modalCancelTitle">Cancel?</h5>
+            
+          </div>
+          <div class="modal-footer-ok">
+            <button type="button" class="btn btn-back" data-dismiss="modal">Back</button>
+            <button type="submit" class="btn btn-ok">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="modalLogout" tabindex="-1" role="dialog" aria-labelledby="modalLogoutTitle" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header-logout">
+            <h5 class="modal-title" id="modalLogoutTitle">Logout?</h5>
+            
+          </div>
+          <div class="modal-footer-ok">
+            <button type="button" class="btn btn-back" data-dismiss="modal">Back</button>
+            <button type="submit" class="btn btn-ok">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.bundle.js"></script>
+  </body>
 </html>
