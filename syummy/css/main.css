@@ -259,7 +259,27 @@ canvas {
 .event_post .column-default-field{
   display:flex;
 }
-
+/*event_post2*/
+.event_post2{
+  background-color:#81C6C9;
+  color:#AB4174;
+}
+.event_post2 .member-count p{
+  color:rgba(171, 65, 116,0.5);
+}
+.event_post2 .btn-check{
+  background-color:#AB4174;
+}
+.event_post2 .btn-ok-wine{
+  background-color: #AB4174;
+  border-color: #AB4174;
+}
+.event_post2 .btn-cancel-wine{
+  background-color: #EAFFE7;
+  color: #AB4174;
+}
+/*event_post3*/
+/*event_post4*/
 /*event_regi*/
 .event_regi .card {
   background-color: #F5F2ED; }
