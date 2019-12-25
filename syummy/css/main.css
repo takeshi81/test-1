@@ -15,7 +15,7 @@ body.h-100 > .container {
   background-color: #FC3A80;
   color: white; }
 
-.shop.login {
+.shop,.login {
   color: #821D30; }
 
 .home-photo {
@@ -338,6 +338,10 @@ canvas {
 .wine_regi .card{
   border:none;
   background:none;
+  padding-left:0;
+}
+.wine_regi .pr-0{
+  padding-left:0;
 }
 .wine-right-img img{
   padding:0;
@@ -636,6 +640,27 @@ canvas {
   height: 50px;
   margin: 0 auto;
 }
+
+/*wine_regi*/
+.wine_regi .column-default-container{
+  border:none;
+}
+.wine-detail-regi{
+  display: flex;
+}
+.wine_regi .btn-dropdown{
+  background-color: #fff;
+  border-left: solid 1px #F5F2ED;
+}
+#name-area,#comments-area{
+  display: block;
+}
+#name-area .column-input{
+  height:30px;
+}
+#comments-area .column-input{
+  height: 200px;
+}
 /* POST一覧 */
 .view_post .card {
   background-color: #F5F2ED; }
@@ -652,6 +677,15 @@ canvas {
 .icn-view_post {
   height: 1.2em;
   width: auto; }
+/*shop login*/
+.shop .login .btn-login{
+  width:48%;
+  border:none;
+}
+.shop,.login .form-control{
+  border: solid 2px #821D30;
+
+}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -4221,7 +4255,7 @@ input[type="button"].btn-block {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1.25rem; }
+  padding: 1rem; }
 
 .card-title {
   margin-bottom: 0.75rem; }
