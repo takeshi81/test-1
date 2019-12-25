@@ -14,7 +14,9 @@ body.h-100 > .container {
 .login {
   background-color: #FC3A80;
   color: white; }
-
+  .login .login-text{
+    color:white;
+  }
 .shop,.login {
   color: #821D30; }
 
