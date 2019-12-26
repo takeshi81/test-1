@@ -517,7 +517,6 @@ body.user_regi > .container{
 }
 .limit-translate-placeholder::placeholder{
   text-align: center;
-  font-size: 23px;
   font-weight: 700;
   color:rgba(63, 63, 63, 0.3);
 }
@@ -536,11 +535,14 @@ body.user_regi > .container{
 }
 
 .people-field-label {
-  flex: 1;
+  width: 100px;
 }
 
-.people-field-input {
-  flex: 2;
+.people-field-input{
+  width: 100%;
+}
+.people-field-input select{
+  width: 100%;
   display: flex;
 }
 
@@ -552,7 +554,23 @@ body.user_regi > .container{
 }
 
 .people-field-input-part {
-  flex: 4;
+ 
+}
+.people-field-input-part select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-bottom:20px;
+  padding:7px 30px 7px 10px;
+  font-size:93%;
+  line-height:1.1em;
+  border-radius: 5px;
+  border:none;
+  background-image: url(../images/triangle.png);
+  background-repeat: no-repeat;
+  background-size: 12px 10px;
+  background-position: right 10px center;
+
 }
 
 .people-field-input-part-element {
@@ -593,7 +611,7 @@ body.user_regi > .container{
   border:solid 0;
   background:none;
 }
-.event_regi_dialog p,
+
 .event_post p
 {
   font-size: 20px;
