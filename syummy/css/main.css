@@ -83,7 +83,8 @@ body.h-100 > .container {
 .btn.btn-login {
   color: white;
   background-color: #FC3A80;
-  border-color: #821D30; }
+  border-color: #821D30; 
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.4));}
 
 .btn.btn-login__facebook {
   color: white;
@@ -180,6 +181,7 @@ body.user_regi > .container{
   text-align: left;
 }
 .user_regi .submit{
+  
   border:none;
   text-align: center;
   margin:0 auto;
