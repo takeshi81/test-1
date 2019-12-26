@@ -34,6 +34,7 @@ body.h-100 > .container {
 
   body.login > .container,
   body.top > .container,
+  body.user_regi> .container,
   body.shop.wine_photo > .container {
     background-image: url("../images/bg-bottle_red.svg");
     background-size: auto 80%;
@@ -134,6 +135,66 @@ body.h-100 > .container {
 video,
 canvas {
   object-fit: scale-down; }
+/*user_regi*/
+.user_regi body{
+  color:#821D30;
+}
+.user-regi-titel {
+  margin-top: 80px;
+  font-size: 22px;
+}
+
+.user_regi .bottle-container{
+  color:#821D30;
+}
+.user_regi .img-bottle{
+  position: relative;
+}
+.form-sex-year-of-birth{
+  display: flex;
+}
+.img-bottle img{
+  width: 50%;
+}
+body.user_regi > .container{
+  background-image: url("../images/login-bottle.png");
+}
+.user_regi .form-control {
+  border:#A45D68;
+  height: 35px;
+}
+.form-sex{
+  padding-right:20px;
+}
+.form-year-of-birth{
+  padding-left :20px;
+}
+.user_regi .home-login-form{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  width: 70%;
+}
+.user_regi .home-login-form .text-form-box{
+  color:#821D30;
+  text-align: left;
+}
+.user_regi .submit{
+  border:none;
+  text-align: center;
+  margin:0 auto;
+}
+.user_regi .btn-login{
+  margin-top: 20px;
+}
+.user_regi .btn.btn-login{
+  border:none;
+}
+.user_regi label{
+  margin-bottom:0;
+  font-size: 13px;
+
+}
 /*member*/
 
 .member-title{
@@ -684,7 +745,7 @@ canvas {
   width:48%;
   border:none;
 }
-.shop .login .form-control{
+.shop .login .form-control,.user_regi .form-control{
   border: solid 2px #821D30;
 
 }

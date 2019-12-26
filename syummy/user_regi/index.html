@@ -6,12 +6,83 @@
   <link rel="stylesheet" href="../css/main.css">
   <title> | SYUMMY</title>
 </head><body class="d-flex flex-column h-100 user_regi">
-  
+  <nav class="navbar navbar-light mb-2">
+    <div class="container row">
+      <div class="col-2 cancel-button" id="cancel-button-close"></div>
+      <div class="col-8 text-center" id="syummy-title">
+
+
+        <img src="../images/syummy-logo.png" class="btn-nav__close">
+      </div>
+      <div class="dropdown dropdown-adjust col-2">
+        <button class="btn p-0" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="../images/btn-menu.svg" class="btn-nav__menu">
+        </button>
+        <div class="dropdown-menu dropdown-menu-right bg-body btn-menu" aria-labelledby="dropdownMenu2">
+          <div class="dropdown-item dropdown-item-close">
+            <img src="../images/btn-close.svg" class="btn-nav__close">
+          </div>
+          
+          <a href="../top/index.html">
+            <button class="dropdown-item" type="button">
+              Top
+            </button>
+          </a>
+          <a href="../help/index.html">
+            <button class="dropdown-item" type="button">
+              Help
+            </button>
+          </a>
+          <button class="dropdown-item" type="button" data-toggle="modal" data-target="#modalLogout">Logout</button>
+          
+          <a href="../tos/index.html">
+            <button class="dropdown-item dropdown-tos" type="button">
+              利用規約
+            </button>
+          </a>
+              
+           
+          
+          <button class="dropdown-item btn-disabled" type="button">SYUMMY</button>
+        </div>
+      </div>
+    </div>
+  </nav>
 <div class="container">
-  <main id="home" class="text-center home-main position-relative mx-2">
-  
-    <h1>SYUMMY</h1>
-    <p class="font-125"></p>
+  <main id="home" class=" home-main position-relative mx-2">
+    <div class="bottle-container h-100">
+      
+ 
+
+      <div class="img-bottle">
+        <h1 class="user-regi-titel text-center">menu</h1>
+       <p></p>
+       
+      </div>  
+    </div>
+    <form class="home-login-form">
+      <div class="text-form-box">
+        <div class="form-group">
+          <label for="input_username">Username</label>
+          <input type="text" class="form-control" id="input_username">
+        </div>
+        <div class="form-mail-address">
+          <label for="input_mail-address">Mail Address</label>
+          <input type="text" class="form-control" id="input_mail-address">
+        </div>
+        <div class="form-sex-year-of-birth">
+          <div class="form-sex">
+            <label for="input_password">Sex</label>
+            <input type="text" class="form-control" id="input_sex">
+          </div>
+          <div class="form-year-of-birth">
+            <label for="input_password">Year of birth</label>
+            <input type="text" class="form-control" id="input_year-of-birth">
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-login">submit</button>
+    </form>
   
   </main>
 </div>
