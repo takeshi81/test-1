@@ -153,6 +153,7 @@ canvas {
 }
 .form-sex-year-of-birth{
   display: flex;
+  margin:0 auto;
 }
 .img-bottle img{
   width: 50%;
@@ -166,9 +167,11 @@ body.user_regi > .container{
 }
 .form-sex{
   padding-right:20px;
+  flex:1
 }
 .form-year-of-birth{
   padding-left :20px;
+  flex:1;
 }
 .user_regi .home-login-form{
   margin: 0 auto;
