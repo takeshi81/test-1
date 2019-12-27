@@ -200,6 +200,14 @@ body.user_regi > .container{
   font-size: 13px;
 
 }
+/*一般ユーザー*/
+/*event_post*/
+.user .total-member{
+  padding-left: 20px;
+  text-align:left;
+}
+
+
 /*member*/
 
 .member-title{
