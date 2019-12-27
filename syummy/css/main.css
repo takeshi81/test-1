@@ -459,6 +459,9 @@ body.user_regi > .container{
   flex-direction: column;
   flex-wrap: wrap;
 }
+.time-field-hour{
+  display:flex;
+}
 
 .time-field-elements {
   display: flex;
@@ -472,9 +475,6 @@ body.user_regi > .container{
   width: 80%;
 }
 
-.time-field-partition::after {
-  content: '：';
-}
 .limit-text{
   flex:9;
   display: flex;
@@ -553,6 +553,9 @@ body.user_regi > .container{
   white-space: nowrap;
 }
 
+.hour-time{
+flex:1;
+}
 .people-field-input-part {
  
 }
@@ -576,6 +579,24 @@ body.user_regi > .container{
 .select-from option{
   width: 100%;
   border-bottom:#821D30;
+}
+
+.time-field-input-part select{
+  width:60px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-bottom:20px;
+  padding:7px 30px 7px 10px;
+  font-size:93%;
+  line-height:1.1em;
+  border-radius: 5px;
+  border:none;
+  
+  background-repeat: no-repeat;
+  background-size: 12px 10px;
+  background-position: right 10px center;
+
 }
 .people-field-input-part select,
 .select-color select,
