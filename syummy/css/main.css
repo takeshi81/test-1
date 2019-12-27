@@ -278,6 +278,12 @@ body.user_regi > .container{
   text-align: center;
   width: 100%;
 }
+div.participant-name{
+  width:100px;
+}
+div.participant-name p.participant-name-p{
+  word-wrap:break-word;
+}
 .sex-age{
   display: flex;
 
