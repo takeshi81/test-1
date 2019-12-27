@@ -201,13 +201,18 @@ body.user_regi > .container{
 
 }
 /*一般ユーザー*/
-/*event_post*/
+/*user event_post*/
 .user .total-member{
   padding-left: 20px;
   text-align:left;
 }
-
-
+/*user top*/
+.user .top .container .home-top{
+  margin-top:25%;
+}
+.user .top .home-top .mt-5{
+  margin-top: 0;
+}
 /*member*/
 
 .member-title{
