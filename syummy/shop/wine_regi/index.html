@@ -42,27 +42,51 @@
    
     <div class="column-default-container" id="color-area">
         <p style="flex:4; text-align:left;">Color</p>
-        <div style="flex:1"></div>
-        <div class="wine-detail-regi"style="flex:10">
-          <input type="text　flex:4;" class="column-input">
-          <button type="button flex:2" class="btn-dropdown btn" id="btn-color">▼</button>
-        </div>
+        <div class="select-color">
+
+
+        <select name="list-color" required>
+          <option value="">選択してください</option>
+          <option value="Red">Red</option>
+          <option value="White">White</option>
+          <option value="Pink">Pink</option>
+          <option value="Bubbles">Bubbles</option>
+        </select>
+      </div>
+      
     </div>
-    <div class="column-default-container" id="grapes-area">
+    <div class="column-default-container" id="grapes-area" placeholder="選択してください">
       <p style="flex:4; text-align:left;">Grapes</p>
-      <div style="flex:1"></div>
-      <div class="wine-detail-regi"style="flex:10">
-        <input type="text　flex:4;" class="column-input">
-        <button type="button flex:2" class="btn-dropdown btn" id="btn-grapes">▼</button>
+      <div class="select-grapes">
+        <select name="list-grapes" multiple size="1" id="select-grapes">
+          <option value="Cabernet Sauvignon">Cabernet Sauvignon</option>
+          <option value="Cabernet Sauvignon">Cabernet Sauvignon(＋Merlot　＋Syrah)</option>
+          <option value="Tempranillo">Tempranillo</option>
+          <option value="Gamay">Gamay</option>
+          <option value="Carménère">Carménère</option>
+          <option value="Grenache">Grenache</option>
+          <option value="Pinot Noir">Pinot Noir</option>
+          <option value="Malbec">Malbec</option>
+          <option value="Sangiovese">Sangiovese</option>
+          <option value="Cabernet Franc">Cabernet Franc</option>
+          
+        </select>
       </div>
     </div>
     <div class="column-default-container" id="form-area">
-      <p style="flex:4; text-align:left;">Form</p>
-      <div style="flex:1"></div>
-      <div class="wine-detail-regi"style="flex:10">
-        <input type="text　flex:4;" class="column-input">
-        <button type="button flex:2" class="btn-dropdown btn" id="btn-form">▼</button>
+      <p style="flex:4; text-align:left;">From</p>
+      <div class="select-from">
+
+
+        <select name="list-from" required>
+          <option value="">選択してください</option>
+          <option value="東京">東京</option>
+          <option value="神奈川">神奈川</option>
+          <option value="埼玉">埼玉</option>
+          <option value="千葉">千葉</option>
+        </select>
       </div>
+      
     </div>
     <div class="column-default-container" id="name-area">
       <p style="text-align:left;">Name</p>
@@ -99,5 +123,11 @@
 
 <script src="../../js/jquery.js"></script>
 <script src="../../js/bootstrap.bundle.js"></script>
+<script src="../../js/select-multiple.js"></script>
+<script>
+  $(function() {
+    $("#select-grapes").multipleSelect();
+  });
+</script>
 </body>
 </html>
