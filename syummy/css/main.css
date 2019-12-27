@@ -201,18 +201,27 @@ body.user_regi > .container{
 
 }
 /*一般ユーザー*/
+/*user top*/
+.top .img-bottle{
+  position: absolute;
+  top:60px;
+  width: 100%;
+}
+.user .top .container .home-top{
+  margin-top:25%;
+}
+.user-top-title{
+  font-size: 25px;
+  font-weight: 400;
+  color:#821D30;
+}
 /*user event_post*/
 .user .total-member{
   padding-left: 20px;
   text-align:left;
 }
-/*user top*/
-.user .top .container .home-top{
-  margin-top:25%;
-}
-.user .top .home-top .mt-5{
-  margin-top: 0;
-}
+
+
 /*member*/
 
 .member-title{
