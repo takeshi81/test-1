@@ -29,7 +29,7 @@ body.h-100 > .container {
   background-color: white !important;
   color: #D17064 !important; 
 }
-.event_post{
+.event_post1{
   
   color: #D17064 !important; }
 
@@ -377,11 +377,11 @@ div.participant-name p.participant-name-p{
   display:flex;
   width:315px;
 }
-#time-eria 
+
 /*event_post2*/
 .event_post2{
-  background-color:#81C6C9;
-  color:#AB4174;
+  background-color:#81C6C9 !important;
+  color:#AB4174 !important;
 }
 .event_post2 .member-count p{
   color:rgba(171, 65, 116,0.5);
@@ -395,7 +395,7 @@ div.participant-name p.participant-name-p{
 }
 .event_post2 .btn-cancel-wine{
   background-color: #EAFFE7;
-  color: #AB4174;
+  color: #AB4174 !important;
 }
 /*event_post3*/
 .event_post3{
