@@ -47,7 +47,9 @@ body.h-100 > .container {
   
   body.top > .container,
   body.shop.top > .container {
-    background-image: url("../images/bg-bottle_burgundy.svg"); }
+   
+    background-image: url("../images/bg-bottle_burgundy.svg");
+    background-position: 50%; }
   
 
   
@@ -59,13 +61,10 @@ body.h-100 > .container {
   top: 36vh; }
 
 .home-top {
-  position: absolute;
+  text-align: center;
   margin: auto;
-  left: 0;
-  right: 0;
-  bottom: 200px;
-  top: 0;
-  margin-top: 60%; }
+  margin-top: 25%;
+  }
 .home-top img{
 
   width: 70px;
@@ -202,9 +201,14 @@ body.user_regi > .container{
 }
 /*一般ユーザー*/
 /*user top*/
-.top .img-bottle{
+.top main{
+  
   position: absolute;
-  top:60px;
+  top:50%;
+  margin-bottom:20px;
+  left:48.5%;
+  transform: translate(-50%, -50%);
+  
   width: 100%;
 }
 .user .top .container .home-top{
