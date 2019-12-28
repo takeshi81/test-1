@@ -12,7 +12,7 @@ body.h-100 > .container {
 
 /* 基本設定 */
 .login {
-  background-color: #FC3A80;
+  background-color: #FC3A80 !important;
   color: white; }
 
 .login .login-text{
@@ -33,7 +33,7 @@ body.h-100 > .container {
   
   color: #D17064 !important; }
 
- 
+  body.shop.login > .container,
   body.top > .container,
   body.user_regi> .container,
   body.shop.wine_photo > .container {
@@ -41,6 +41,7 @@ body.h-100 > .container {
     background-size: auto 80%;
     background-repeat: no-repeat;
     background-position: center; }
+  
   
   body.shop.login > .container,
   body.shop.wine_photo > .container {
