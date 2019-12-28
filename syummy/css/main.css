@@ -845,6 +845,13 @@ flex:1;
 }
 
 /*wine_regi*/
+.wine_regi {
+  color:#D17064 !important;
+  font-weight: 700 !important;
+}
+.wine_regi p{
+  font-size: 20px;
+}
 .wine_regi .column-default-container{
   border:none;
 }
