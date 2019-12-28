@@ -31,7 +31,7 @@ body.h-100 > .container {
 }
 .event_post{
   
-  color: #D17064; }
+  color: #D17064 !important; }
 
  
   body.top > .container,
@@ -2860,7 +2860,7 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(149, 63, 79, 0.5); }
 /*okボタン　regiで使用*/
 .btn-ok-wine {
-  color: #FEF2ED;
+  color: #FEF2ED !important;
   text-align: center;
   margin:0 auto;
   width: 80%;
@@ -2895,7 +2895,7 @@ fieldset:disabled a.btn {
 
 /*cancelボタン　regiで使用*/
 .btn-cancel-wine {
-  color: #D17064;
+  color: #D17064 !important;
   text-align: center;
   margin:0 auto;
   width: 80%;
