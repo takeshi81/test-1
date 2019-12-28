@@ -7,37 +7,54 @@
   <title>POST一覧 | SYUMMY</title>
 </head><body class="d-flex flex-column h-100 user view_post">
   
-<nav class="navbar navbar-light mb-2">
-  <div class="container row">
-    <div class="col-2">
-      <a href="../top/index.html">
-        <button class="btn p-0" type="button">
-          <img src="../images/btn-close.svg" class="btn-nav__close">
+  <nav class="navbar navbar-light mb-2">
+    <div class="container row">
+      <div class="col-2 cancel-button">
+        <a href="../top/index.html">
+          <button class="btn p-0" type="button">
+            <img src="../images/btn-close.svg" class="btn-nav__close">
+          </button>
+        </a>
+      </div>
+      <div class="col-8 text-center" id="btn-serch">
+
+
+        <img src="../images/search-solid.png" class="btn-nav__close">
+      </div>
+      <div class="dropdown dropdown-adjust col-2">
+        <button class="btn p-0" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="../images/menu-orange.png" class="btn-nav__menu">
         </button>
-      </a>
-    </div>
-    <div class="col-8 text-center"><img src="../images/icn-view.svg" class="btn-nav__close"></div>
-    <div class="dropdown col-2">
-      <button class="btn p-0" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <img src="../images/menu-orange.png" class="btn-nav__menu">
-      </button>
-      <div class="dropdown-menu dropdown-menu-right bg-body btn-menu" aria-labelledby="dropdownMenu2">
-        <a href="../shop/top/index.html">
-          <button class="dropdown-item" type="button">
-            Top
-          </button>
-        </a>
-        <a href="../help/index.html">
-          <button class="dropdown-item" type="button">
-            Help
-          </button>
-        </a>
-        <button class="dropdown-item" type="button" data-toggle="modal" data-target="#modalLogout">Logout</button>
-        <button class="dropdown-item btn-disabled" type="button">SYUMMY</button>
+        <div class="dropdown-menu dropdown-menu-right bg-body btn-menu" aria-labelledby="dropdownMenu2">
+          <div class="dropdown-item dropdown-item-close">
+            <img src="../images/user/cancel.png" class="btn-nav__close">
+          </div>
+          
+          <a href="../top/index.html">
+            <button class="dropdown-item" type="button">
+              Top
+            </button>
+          </a>
+          <a href="../help/index.html">
+            <button class="dropdown-item" type="button">
+              Help
+            </button>
+          </a>
+          <button class="dropdown-item dropdown-logout" type="button" data-toggle="modal" data-target="#modalLogout">Logout</button>
+          
+          <a href="../tos/index.html">
+            <button class="dropdown-item dropdown-tos" type="button">
+              利用規約
+            </button>
+          </a>
+              
+           
+          
+          <button class="dropdown-item btn-disabled" type="button">SYUMMY</button>
+        </div>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>
 <div class="container">
   <main id="home" class="text-center home-main position-relative mx-2 ">
   
