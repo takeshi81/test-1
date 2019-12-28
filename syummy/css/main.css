@@ -124,6 +124,7 @@ body.h-100 > .container {
 
 .user .btn-menu > a > button {
     color: #821D30; }
+
 .shop.btn-menu > a > button {
   color: #D17064; }
 
@@ -436,20 +437,20 @@ div.participant-name p.participant-name-p{
 }
 /*card*/
 .event-card{
-  background-color:#fff;
+  background-color:#fff !important;
 }
 .event-card .card{
-  background-color: #F5F2ED; }
+  background-color: #F5F2ED !important; }
 
 .card > a {
   color: #D17064; }
 
   .event-card .card.event-success {
-  background-color: #F5E491; }
+  background-color: #F5E491 !important; }
 
 
 .event-card .card.event-full {
-  background-color: #FFC8CD; }
+  background-color: #FFC8CD !important; }
 /*wine_regi_dialog*/
 /* デフォルトカラム設定 */
 
@@ -3657,6 +3658,7 @@ input[type="button"].btn-block {
 .user .dropdown-menu .dropdown-logout{
   color:#821D30;
 }
+
 
 .dropdown-item {
   display: block;
