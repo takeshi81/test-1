@@ -630,18 +630,14 @@ div.participant-name p.participant-name-p{
 .hour-time{
 flex:1;
 }
-.people-field-input-part {
- 
-}
+
 .select-color,
 .select-grapes,
 .select-from {
   flex:4;
   width: 100%;
 }
-#select-grapes{
-  
-}
+
 .select-color select,
 .select-grapes select,
 .select-from select{
