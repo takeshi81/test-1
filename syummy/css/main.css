@@ -720,7 +720,15 @@ flex:1;
 
 /*event_regi_dialog*/
 
+.event_regi_dialog p{
+  color:#D17064;
+}
+input::-webkit-input-placeholder { padding-top: 0.2em; }
+[type=text] {
 
+  line-height: normal;
+  padding-bottom: 5px;
+}
 /*個別編集*/
 
 .event_regi_dialog .card,
