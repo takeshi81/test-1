@@ -26,8 +26,8 @@ body.h-100 > .container {
   color: #821D30; }
 
 .view_post {
-  background-color: white;
-  color: #D17064; 
+  background-color: white !important;
+  color: #D17064 !important; 
 }
 .event_post{
   
@@ -2825,7 +2825,7 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(149, 63, 79, 0.5); }
 /*nextボタン*/
 .btn-next {
-  color: #FEF2ED;
+  color: #FEF2ED !important; 
   text-align: center;
   margin:0 auto;
   width: 80%;
@@ -4585,7 +4585,7 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+ 
   border-radius: 0.25rem; }
   .card > hr {
     margin-right: 0;
