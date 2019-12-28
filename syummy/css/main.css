@@ -224,6 +224,8 @@ body.user_regi > .container{
   padding-left: 20px;
   text-align:left;
 }
+/*user my_syummy*/
+
 
 
 /*member*/
@@ -418,17 +420,21 @@ div.participant-name p.participant-name-p{
   background-color: #EAFFE7;
   color: #AB4174;
 }
-/*event_regi*/
-.event_regi .card {
+/*card*/
+.event-card{
+  background-color:#fff;
+}
+.event-card .card{
   background-color: #F5F2ED; }
 
 .card > a {
   color: #D17064; }
 
-.event_regi .card.event-success {
+  .event-card .card.event-success {
   background-color: #F5E491; }
 
-.event_regi .card.event-full {
+
+.event-card .card.event-full {
   background-color: #FFC8CD; }
 /*wine_regi_dialog*/
 /* デフォルトカラム設定 */
