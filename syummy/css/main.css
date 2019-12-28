@@ -121,7 +121,9 @@ body.h-100 > .container {
 .bg-body {
   background-color: #F5F2ED !important; }
 
-.btn-menu > a > button {
+.user .btn-menu > a > button {
+    color: #821D30; }
+.shop.btn-menu > a > button {
   color: #D17064; }
 
 .btn-menu > a:hover > button {
@@ -135,6 +137,13 @@ body.h-100 > .container {
 video,
 canvas {
   object-fit: scale-down; }
+/*closeボタン*/
+.close-btn .btn{
+  color: #821D30;
+}
+.user .btn{
+  color:#821D30;
+}
 /*user_regi*/
 .user_regi body{
   color:#821D30;
@@ -226,6 +235,10 @@ body.user_regi > .container{
 }
 /*user my_syummy*/
 
+/*user help*/
+body .user  {
+  color:#821D30;
+}
 
 
 /*member*/
@@ -1047,13 +1060,23 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
-body {
+.user {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5;
-  color:#D17064;
+  color:#821D30;
+  text-align: left;
+  background-color: #F5F2ED;
+  padding-top: 20px; }
+.shop {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color:#821D30;
   text-align: left;
   background-color: #F5F2ED;
   padding-top: 20px; }
@@ -3628,6 +3651,10 @@ input[type="button"].btn-block {
   font-size: 14px;
   text-decoration: none;
 
+}
+
+.user .dropdown-menu .dropdown-logout{
+  color:#821D30;
 }
 
 .dropdown-item {
