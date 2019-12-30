@@ -902,13 +902,23 @@ input::-webkit-input-placeholder { padding-top: 0.2em; }
   border: solid 2px #821D30;
 
 }
-.bottole-saport-etiquette_shot{
-  top:0;
-  right: 0;
-  left: 0;
-  bottom:0;
+.bottle-saport{
+
+
 }
-/*!
+.text-center .bottle-saport-etiquette_shot{
+  top:0;
+  right:0;
+  left:0;
+}
+.bottle-saport-etiquette_shot-box{
+  
+}
+.pic-camera{
+  right: 0;
+  left:0;
+}
+/*!5
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.

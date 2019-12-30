@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="../../../css/main.css">
   <title>Take etiquette photo | SYUMMY</title>
-</head><body class="d-flex flex-column h-100 shop wine_photo etiquette_shot">
+</head><body class="d-flex flex-column h-100 shop wine_photo etiquette_shot pt-0">
   
-<nav class="navbar navbar-light fixed-top">
+<nav class="navbar navbar-light fixed-top position-absolute">
   <div class="container row">
     <div class="col-2">
       <a href="../../top/index.html">
@@ -20,16 +20,18 @@
     </div>
   </div>
 </nav>
-<div class="container">
-  <main id="home" class="text-center home-main position-relative mx-2">
+<div class="container　h-100">
+  <main id="home" class="text-center home-main position-relative h-100">
   <div class="camera-container">
-    <p><div class="pic-camera">
-  <video id="camera" autoplay playsinline="true" width="270" height="480"></video>
+    <div class="pic-camera position-absolute">
+  <video id="camera" autoplay playsinline="true"class="w-100"></video>
 </div>
 
 
-<div class="bottole-saport-etiquette_shot position-absolute h-50">
-  <img src="../../../images/bottle-shape-for-camera.png" class="h-100">
+<div class="bottle-saport-etiquette_shot position-absolute">
+  <div class="bottle-saport-etiquette_shot-box">
+    <img src="../../../images/bottle-shape-for-camera.png" class="bottle-saport">
+  </div>
 </div>
 <nav class="navbar fixed-bottom navbar-light bg-transparent">
   <div class="container d-flex justify-content-center">
@@ -41,7 +43,7 @@
   </div>
 </nav>
 <canvas id="picture" width="720" height="1280" class="invisible" style="width:300px;height:auto;"></canvas>
-<script src="../../../js/camera.js"></script></p>
+<script src="../../../js/camera.js"></script>
 
 </div>
   </main>
@@ -64,5 +66,6 @@
 
 <script src="../../../js/jquery.js"></script>
 <script src="../../../js/bootstrap.bundle.js"></script>
+<script src="../../../js/size-adjust.js"></script>
 </body>
 </html>
