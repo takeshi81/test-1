@@ -202,7 +202,7 @@ body.user_regi > .container{
   margin:0 auto;
 }
 .user_regi .btn-login{
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .user_regi .btn.btn-login{
   border:none;
@@ -214,6 +214,7 @@ body.user_regi > .container{
 }
 /*一般ユーザー*/
 /*user top*/
+
 .top .menu-box{
   
   position: absolute;
@@ -224,6 +225,7 @@ body.user_regi > .container{
   
   width: 100%;
 }
+.home-login-form,
 .shop-top .menu-box{
   
   position: absolute;
@@ -233,6 +235,9 @@ body.user_regi > .container{
   transform: translate(-50%, -50%);
   
   width: 100%;
+}
+.home-login-form{
+  top:65%;
 }
 .user .top .container .home-top{
   margin-top:25%;
@@ -2398,8 +2403,7 @@ select.form-control[size], select.form-control[multiple] {
 textarea.form-control {
   height: auto; }
 
-.form-group {
-  margin-bottom: 1rem; }
+
 
 .form-text {
   display: block;

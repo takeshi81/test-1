@@ -12,6 +12,9 @@ $(function(){
     //top画面のボタン
     $('.btn-top').css('height',wHBtnTop +'px');
     $('.top-title-text').css('margin-top',wH*1/10 +'px');
+    $('.user-regi-titel').css('margin-top',wH*1/10 +'px');
+
+
     //撮影画面
     $('.navbar').css('height',wHNavFrontBack +'px');
     $('.bottle-saport').css('height',wHWineBack +'px');
@@ -33,6 +36,9 @@ $(function(){
         //top画面のボタン
         $('.btn-top').css('height',wHBtnTop +'px');
         $('.top-title-text').css('margin-top',wH*1/10 +'px');
+        $('.user-regi-titel').css('margin-top',wH*1/10 +'px');
+
+       
         //撮影画面
         $('.navbar').css('height',wHNavFrontBack +'px');
         $('.bottle-saport').css('height',wHWineBack +'px');
