@@ -916,6 +916,12 @@ input::-webkit-input-placeholder { padding-top: 0.2em; }
   right: 0;
   left:0;
 }
+.etiquette_shot .navbar{
+  background-color:#F5F2ED;
+  z-index: 2000;
+  height: 25%;
+  color: #D17064;
+}
 /*!5
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
