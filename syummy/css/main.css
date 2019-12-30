@@ -214,12 +214,22 @@ body.user_regi > .container{
 }
 /*一般ユーザー*/
 /*user top*/
-.top main{
+.top .menu-box{
   
   position: absolute;
   top:50%;
   margin-bottom:20px;
-  left:48.5%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  
+  width: 100%;
+}
+.shop-top .menu-box{
+  
+  position: absolute;
+  top:60%;
+  margin-bottom:20px;
+  left:50%;
   transform: translate(-50%, -50%);
   
   width: 100%;
