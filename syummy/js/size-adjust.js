@@ -6,7 +6,7 @@ $(function(){
     $('body').css('height',wH+ 'px');
     $('.navbar').css('height',wHNavFrontBack +'px');
     $('.bottle-saport').css('height',wHWineBack +'px');
-    $('#camera').css('height',wHWineBack +'px');
+   
     $('.pic-camera').css('height',wHWineBack +'px');
     $('.wine-cover-img').css('height',wH+'px');
   
@@ -17,7 +17,7 @@ $(function(){
         $('body').css('height',wH+ 'px');
         $('.navbar').css('height',wHNavFrontBack +'px');
         $('.bottle-saport').css('height',wHWineBack +'px');
-        $('#camera').css('height',wHWineBack +'px');
+        
         $('.pic-camera').css('height',wHWineBack +'px');
         $('.wine-cover-img').css('height',wH+'px');
       
