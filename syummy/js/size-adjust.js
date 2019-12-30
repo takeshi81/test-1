@@ -1,16 +1,25 @@
 $(function(){
    
     var wH = $(window).height();
-    wH *=4/5;
+    var wHNavFrontBack = wH * 225/1000;
+    var wHWineBack = wH * 11/20;
+    $('body').css('height',wH+ 'px');
+    $('.navbar').css('height',wHNavFrontBack +'px');
+    $('.bottle-saport').css('height',wHWineBack +'px');
+    $('#camera').css('height',wHWineBack +'px');
+    $('.pic-camera').css('height',wHWineBack +'px');
+    $('.wine-cover-img').css('height',wH+'px');
   
-    $('.bottle-saport').css('height',wH+'px');
-    $('#camera').css('height',wH+'px');
-   
     $(window).on('resize',function(){
         var wH = $(window).height();
-        wH *= 4/5;
-        $('.bottle-saport').css('height',wH+'px');
-        $('#camera').css('height',wH+'px');
+        var wHNavFrontBack = wH * 225/1000;
+    var wHWineBack = wH * 11/20;
+        $('body').css('height',wH+ 'px');
+        $('.navbar').css('height',wHNavFrontBack +'px');
+        $('.bottle-saport').css('height',wHWineBack +'px');
+        $('#camera').css('height',wHWineBack +'px');
+        $('.pic-camera').css('height',wHWineBack +'px');
+        $('.wine-cover-img').css('height',wH+'px');
       
     });
 })

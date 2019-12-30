@@ -900,6 +900,14 @@ input::-webkit-input-placeholder { padding-top: 0.2em; }
   border: solid 2px #821D30;
 
 }
+.wine_photo{
+  padding-top:0 !important;
+  
+}
+.wine_photo .container{
+  padding:0;
+
+}
 .bottle-saport{
 
 
@@ -922,6 +930,32 @@ input::-webkit-input-placeholder { padding-top: 0.2em; }
   z-index: 2000;
   height: 25%;
   color: #D17064;
+}
+.cover_dialog .btn-back{
+  bottom:10px;
+  left:10px;
+ width:10px;
+}
+
+.cover_dialog .btn-back img{
+  width: 45px;
+  height: 45px;
+}
+#picture{
+  display:none;
+}
+.camera-box{
+  overflow: hidden;
+}
+
+/*カメラの撮影範囲*/
+.pic-camera{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#camera{
+  flex-shrink: 0;
 }
 /*!5
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
