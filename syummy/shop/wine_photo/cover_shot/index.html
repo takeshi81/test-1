@@ -5,42 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="../../../css/main.css">
   <title>Take cover photo | SYUMMY</title>
-</head><body class="d-flex flex-column h-100 shop wine_photo cover_shot">
+</head><body class="d-flex flex-column h-100 shop wine_photo cover_shot pt-0">
   
-<nav class="navbar navbar-light fixed-top">
-  <div class="container row">
-    <div class="col-2">
-      <a href="../../../shop/top/index.html">
-        <button class="btn p-0" type="button">
-          <img src="../../../images/btn-close.svg" class="btn-nav__close">
+  <nav class="navbar navbar-light fixed-top position-absolute">
+    <div class="container row">
+      <div class="col-2">
+        <a href="../../top/index.html">
+          <button class="btn p-0" type="button">
+            <img src="../../../images/btn-close.svg" class="btn-nav__close">
+          </button>
+        </a>
+      </div>
+      <div class="col-10">
+      </div>
+    </div>
+  </nav>
+  <div class="container　h-100">
+    <main id="home" class="text-center home-main position-relative h-100">
+    <div class="camera-container">
+      <div class="pic-camera position-absolute">
+    <video id="camera" autoplay playsinline="true"class="w-100"></video>
+  </div>
+  
+  
+  <div class="bottle-saport-etiquette_shot position-absolute">
+    <div class="bottle-saport-etiquette_shot-box">
+      <img src="../../../images/bottle-shape-for-camera.png" class="bottle-saport">
+    </div>
+  </div>
+  <nav class="navbar fixed-bottom navbar-light bg-transparent">
+    <div class="container d-flex justify-content-center">
+      <form>
+        <button id="shutter" type="button" class="btn">
+          <img src="../../../images/btn-shot.svg" alt="button for shoot" class="btn-shot">
         </button>
-      </a>
+      </form>
     </div>
-    <div class="col-10">
-    </div>
-  </div>
-</nav>
-<div class="container">
-  <main id="home" class="text-center home-main position-relative mx-2">
+  </nav>
+  <canvas id="picture" width="720" height="1280" class="invisible" style="width:300px;height:auto;"></canvas>
+  <script src="../../../js/camera.js"></script>
   
-    <p><div class="pic-camera">
-  <video id="camera" autoplay playsinline="true" width="270" height="480"></video>
-</div>
-<nav class="navbar fixed-bottom navbar-light bg-transparent">
-  <div class="container d-flex justify-content-center">
-    <form>
-      <button id="shutter" type="button" class="btn">
-        <img src="../../../images/btn-shot.svg" alt="button for shoot" class="btn-shot">
-      </button>
-    </form>
   </div>
-</nav>
-<canvas id="picture" width="720" height="1280" class="invisible" style="width:300px;height:auto;"></canvas>
-<script src="../../../js/camera.js"></script></p>
-
-  
-  </main>
-</div>
+    </main>
+  </div>
 
 <div class="modal fade" id="modalLogout" tabindex="-1" role="dialog" aria-labelledby="modalLogoutTitle" aria-hidden="true">
   <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
@@ -59,5 +66,6 @@
 
 <script src="../../../js/jquery.js"></script>
 <script src="../../../js/bootstrap.bundle.js"></script>
+<script src="../../../js/size-adjust.js"></script>
 </body>
 </html>

@@ -35,16 +35,14 @@ body.h-100 > .container {
 
   body.shop.login > .container,
   body.top > .container,
-  body.user_regi> .container,
-  body.shop.wine_photo > .container {
+  body.user_regi> .container {
     background-image: url("../images/bg-bottle_red.svg");
     background-size: auto 80%;
     background-repeat: no-repeat;
     background-position: center; }
   
   
-  body.shop.login > .container,
-  body.shop.wine_photo > .container {
+  body.shop.login > .container {
     background-image: url("../images/bg-bottle_white.svg"); }
   
   body.top > .container,
