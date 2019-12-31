@@ -6754,7 +6754,7 @@ button.bg-dark:focus {
   position: fixed;
   top: 0;
   right: 0;
-  left: 0;
+  left: 20px;
   z-index: 1030; }
 
 .fixed-bottom {
