@@ -18,7 +18,7 @@ $(function(){
     //撮影画面
     $('.navbar').css('height',wHNavFrontBack +'px');
     $('.bottle-saport').css('height',wHWineBack +'px');
-    $('.bottle-saport-cover').css('height',695 +'px');
+    $('.bottle-saport-cover').css('height',565 +'px');
     $('.pic-camera').css('height',wHWineBack +'px');
     $('.pic-camera-cover').css('height',697 +'px');
 
@@ -42,9 +42,9 @@ $(function(){
         //撮影画面
         $('.navbar').css('height',wHNavFrontBack +'px');
         $('.bottle-saport').css('height',wHWineBack +'px');
-        $('.bottle-saport-cover').css('height',695 +'px');
+        $('.bottle-saport-cover').css('height',565 +'px');
         $('.pic-camera').css('height',wHWineBack +'px');
-        $('.pic-camera-cover').css('height',695 +'px');
+        $('.pic-camera-cover').css('height',697 +'px');
     
       
     });
