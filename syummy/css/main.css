@@ -229,12 +229,20 @@ body.user_regi > .container{
 .shop-top .menu-box{
   
   position: absolute;
-  top:60%;
+  top:68%;
   margin-bottom:20px;
   left:50%;
   transform: translate(-50%, -50%);
-  
-  width: 100%;
+  width:74px;
+  max-width: 375px;
+}
+.shop .home-top a{
+  margin: 0 auto;
+  width:74px;
+}
+.shop .home-top button{
+  padding: 0 0 0 2px;
+  margin-bottom:5px;
 }
 .home-login-form{
   top:65%;
