@@ -6752,7 +6752,7 @@ button.bg-dark:focus {
 
 .fixed-top {
   position: fixed;
-  top: 0;
+  top: 20px;
   right: 0;
   left: 20px;
   z-index: 1030; }
