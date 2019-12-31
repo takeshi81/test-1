@@ -22,6 +22,9 @@ $(function(){
     $('.pic-camera').css('height',wHWineBack +'px');
     $('.pic-camera-cover').css('height',wHCameraCover +'px');
 
+    //navbarの高さを調整しない場合
+    $('#navbar').css('height',60 +'px');
+
   
     $(window).on('resize',function(){
         var wH = $(window).height();
@@ -45,7 +48,7 @@ $(function(){
         $('.bottle-saport-cover').css('height',wHCameraCover +'px');
         $('.pic-camera').css('height',wHWineBack +'px');
         $('.pic-camera-cover').css('height',wHCameraCover +'px');
-    
+        $('#navbar').css('height',60 +'px');
       
     });
 })
