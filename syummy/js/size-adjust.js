@@ -2,8 +2,8 @@ $(function(){
    
     var wH = $(window).height();
     var wHCameraCover = wH * 4/5;
-    var wHNavFrontBack = wH * 225/1000;
-    var wHWineBack = wH * 11/20;
+    var wHCameraImage = wH *  2/5;
+    var wHWineBack = wH * 11/18;
     var wHBtnTop = wH*1/10;
     var wHCameraSize = wHWineBack;
     var wWCamera = 1/2103 * 1103 * wHCameraSize;
@@ -28,8 +28,8 @@ $(function(){
     $('.pic-camera').css('width',wWCamera +'px');
     $('.camera').css('height',wHCameraSize +'px');
     $('.camera').css('width',wWCamera +'px');
-    $('.bottle-saport').css('height',wHCameraSize +'px');
-    $('.bottle-saport').css('width',wWCamera +'px');
+    $('.bottle-saport').css('height',wHCameraImage +'px');
+   
     $('.pic-camera-cover').css('height', wHCameraCover+'px');
     $('.pic-camera-cover').css('width',wWCameraCover +'px');
     //navbarの高さを調整しない場合
@@ -39,8 +39,8 @@ $(function(){
     $(window).on('resize',function(){
         var wH = $(window).height();
         var wHCameraCover = wH * 4/5;
-        var wHNavFrontBack = wH * 225/1000;
-        var wHWineBack = wH * 11/20;
+        var wHCameraImage = wH *  2/5;
+        var wHWineBack = wH * 11/18;
         var wHBtnTop = wH*1/10;
         var wHCameraSize = wHWineBack;
         var wWCamera = 1/697 * 375 * wHCameraSize;
@@ -64,8 +64,8 @@ $(function(){
         $('.pic-camera').css('width',wWCamera +'px');
         $('.camera').css('height',wHCameraSize +'px');
         $('.camera').css('width',wWCamera +'px');
-        $('.bottle-saport').css('height',wHCameraSize +'px');
-        $('.bottle-saport').css('width',wWCamera +'px');
+        $('.bottle-saport').css('height',wHCameraImage +'px');
+       
         $('.pic-camera-cover').css('height',wHCameraCover +'px');
         $('.pic-camera-cover').css('width',wWCameraCover +'px');
         $('#navbar').css('height',60 +'px');
