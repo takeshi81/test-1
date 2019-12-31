@@ -18,9 +18,9 @@ $(function(){
     //撮影画面
     $('.navbar').css('height',wHNavFrontBack +'px');
     $('.bottle-saport').css('height',wHWineBack +'px');
-    $('.bottle-saport-cover').css('height',565 +'px');
+    $('.bottle-saport-cover').css('height',wHCameraCover +'px');
     $('.pic-camera').css('height',wHWineBack +'px');
-    $('.pic-camera-cover').css('height',697 +'px');
+    $('.pic-camera-cover').css('height',wHCameraCover +'px');
 
   
     $(window).on('resize',function(){
@@ -42,9 +42,9 @@ $(function(){
         //撮影画面
         $('.navbar').css('height',wHNavFrontBack +'px');
         $('.bottle-saport').css('height',wHWineBack +'px');
-        $('.bottle-saport-cover').css('height',565 +'px');
+        $('.bottle-saport-cover').css('height',wHCameraCover +'px');
         $('.pic-camera').css('height',wHWineBack +'px');
-        $('.pic-camera-cover').css('height',697 +'px');
+        $('.pic-camera-cover').css('height',wHCameraCover +'px');
     
       
     });
