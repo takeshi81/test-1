@@ -225,7 +225,8 @@ body.user_regi > .container{
   
   width: 100%;
 }
-.shop .home-login-form,
+
+
 .shop-top .menu-box{
   
   position: absolute;
@@ -244,12 +245,13 @@ body.user_regi > .container{
   padding: 0 0 0 2px;
   margin-bottom:5px;
 }
-.home-login-form{
-  top:65%;
-}
 .shop .home-logotype{
+  top:-30%;
   width:90%;
   padding:0 20%;
+}
+.home-login-form{
+  top:65%;
 }
 .shop .home-login-form{
   top:65%;
@@ -928,7 +930,7 @@ input::-webkit-input-placeholder { padding-top: 0.2em; }
 /*shop login*/
 .shop .login .btn-login{
   margin-top: 10px;
-  width:30%;
+  
   border:none;
 }
 .shop .login .form-control,.user_regi .form-control{

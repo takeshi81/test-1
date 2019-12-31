@@ -13,7 +13,7 @@ $(function(){
     $('.btn-top').css('height',wHBtnTop +'px');
     $('.top-title-text').css('margin-top',wH*1/10 +'px');
     $('.user-regi-titel').css('margin-top',wH*1/10 +'px');
-    $('.home-login-form').css('margin-top',wH*1/10 +'px');
+   
 
 
     //撮影画面
@@ -38,7 +38,7 @@ $(function(){
         $('.btn-top').css('height',wHBtnTop +'px');
         $('.top-title-text').css('margin-top',wH*1/10 +'px');
         $('.user-regi-titel').css('margin-top',wH*1/10 +'px');
-        $('.home-login-form').css('margin-top',wH*1/10 +'px');
+      
 
        
         //撮影画面
