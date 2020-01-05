@@ -6,8 +6,8 @@ $(function(){
     var wHWineBack = wH * 11/18;
     var wHBtnTop = wH*1/10;
     var wHCameraSize = wHWineBack;
-    var wWCamera = 1/2103 * 1103 * wHCameraSize;
-    var wWCameraCover = 1/2103 * 1103 * wHCameraCover;
+    var wWCamera = 1/4 * 3 * wHCameraSize;
+    var wWCameraCover = 1/4 * 3 * wHCameraCover;
 
     //pic-camera-cover
    
@@ -43,8 +43,8 @@ $(function(){
         var wHWineBack = wH * 11/18;
         var wHBtnTop = wH*1/10;
         var wHCameraSize = wHWineBack;
-        var wWCamera = 1/697 * 375 * wHCameraSize;
-        var wWCameraCover = 1/2103 * 1103 * wHCameraCover;
+        var wWCamera = 1/4 * 4 * wHCameraSize;
+        var wWCameraCover = 1/4 * 3 * wHCameraCover;
     
     
     
