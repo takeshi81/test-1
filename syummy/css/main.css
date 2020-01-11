@@ -490,6 +490,22 @@ div.participant-name p.participant-name-p{
   color: #AB4174 !important;
 }
 /*card*/
+.card-body{
+  padding-left:0 !important;
+}
+.card-body .col-8{
+  padding-left:0;
+  padding-right:5px;
+}
+.card-body .col-4 .col-12{
+  padding-right:0;
+  padding-left:0;
+  max-width:96.2%;
+}
+.card-body .col-4 .bottle-image-top{
+  margin-bottom:5px;
+}
+
 .event-card{
   background-color:#fff !important;
 }
@@ -507,6 +523,7 @@ div.participant-name p.participant-name-p{
   background-color: #FFC8CD !important; }
 /*wine_regi_dialog*/
 /* デフォルトカラム設定 */
+
 
 #icon-pen{
   width:130px;

@@ -6,8 +6,7 @@
   <link rel="stylesheet" href="../../../css/main.css">
   <title>Take cover photo | SYUMMY</title>
 </head><body class="d-flex flex-column h-100 shop wine_photo cover_shot pt-0">
-  
-  <nav class="navbar navbar-light fixed-top" id="navbar" style="width:345px; margin: auto;">
+  <nav class="navbar navbar-light h-22.5"  style="width: 345px; margin: 59px auto; height: 60px;">
     <div class="container row">
       <div class="col-2"></div>
       <div class="col-2">
@@ -20,21 +19,26 @@
       <div class="col-8">
       </div>
     </div>
+    <div class="container row">
+      <div class="nav-text-wine text-center w-100 mt-20">
+        <p class="text-center col-12 w-100"></p>
+      </div>
+    </div>
   </nav>
-  <div class="container　h-100">
-    <main id="home" class="text-center home-main position-relative h-100">
+  <div class="container　　h-55 w-100 camera-box">
+    <main id="home" class="text-center home-main position-relative">
     <div class="camera-container">
-      <div class="pic-camera pic-camera-cover position-absolute">
-    <video id="camera" class="camera-cover"autoplay playsinline="true"></video>
+      <div class="pic-camera w-100">
+    <video id="camera" class="camera"autoplay playsinline="true"></video>
   </div>
   
   
   <div class="bottle-saport-etiquette_shot position-absolute">
     <div class="bottle-saport-etiquette_shot-box">
-      <img src="../../../images/bottle-shape-for-camera.png" class="bottle-saport-cover">
+      <img src="../../../images/bottle-shape-for-camera.png" class="bottle-saport">
     </div>
   </div>
-  <nav class="navbar fixed-bottom navbar-light bg-transparent">
+  <nav class="navbar fixed-bottom navbar-light bg-transparent h-22.5">
     <div class="container d-flex justify-content-center">
       <form>
         <a href="../cover_dialog/index.html"><button id="shutter" type="button" class="btn">
@@ -44,6 +48,13 @@
     </div>
   </nav>
   <canvas id="picture" width="720" height="1280" class="invisible" style="width:300px;height:auto;"></canvas>
+  <script src="../../../js/camera.js"></script>
+  
+  </div>
+    </main>
+  </div>
+  
+  <canvas id="picture" width="375" height="500" class="invisible" style="width:300px;height:auto;"></canvas>
   <script src="../../../js/camera.js"></script>
   
   </div>
