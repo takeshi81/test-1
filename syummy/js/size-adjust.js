@@ -2,7 +2,7 @@ $(function(){
    
     var wH = $(window).height();
     var wHCameraCover = wH * 4/5;
-    var wHCameraImage = wH *  2/5;
+    var wHCameraImage = wH *  1/2;
     var wHWineBack = wH * 11/18;
     var wHBtnTop = wH*1/10;
     var wHCameraSize = wHWineBack;
@@ -35,7 +35,7 @@ $(function(){
         
     var wH = $(window).height();
     var wHCameraCover = wH * 4/5;
-    var wHCameraImage = wH *  2/5;
+    var wHCameraImage = wH *  1/2;
     var wHWineBack = wH * 11/18;
     var wHBtnTop = wH*1/10;
     var wHCameraSize = wHWineBack;
