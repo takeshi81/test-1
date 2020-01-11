@@ -1015,6 +1015,9 @@ input::-webkit-input-placeholder { padding-top: 0.2em; }
 .camera-box{
   overflow: hidden;
 }
+.camera{
+  overflow: hidden;
+}
 
 /*カメラの撮影範囲*/
 .pic-camera{

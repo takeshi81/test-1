@@ -18,20 +18,15 @@ $(function(){
 
 
     //撮影画面
-   
-    $('.camera-cover').css('height',wHCameraCover +'px');
-    $('.camera-cover').css('width',wWCameraCover +'px');
     $('.bottle-saport-cover').css('height',wHCameraCover*3/4 +'px');
     $('.bottle-saport-cover').css('margin-top',75 +'px');
    
     $('.pic-camera').css('height',wHCameraSize +'px');
     $('.pic-camera').css('width',wWCamera +'px');
-    $('.camera').css('height',wHCameraSize +'px');
+    
     $('.camera').css('width',wWCamera +'px');
     $('.bottle-saport').css('height',wHCameraImage +'px');
    
-    $('.pic-camera-cover').css('height', wHCameraCover+'px');
-    $('.pic-camera-cover').css('width',wWCameraCover +'px');
     //navbarの高さを調整しない場合
     $('#navbar').css('height',60 +'px');
 
@@ -56,19 +51,16 @@ $(function(){
 
        
         //撮影画面
-        $('.camera-cover').css('height',wHCameraCover +'px');
-        $('.camera-cover').css('width',wWCameraCover +'px');
+     
         $('.bottle-saport-cover').css('height',wHCameraCover*3/4 +'px');
         $('.bottle-saport-cover').css('margin-top',75 +'px');
      
         $('.pic-camera').css('height',wHCameraSize +'px');
         $('.pic-camera').css('width',wWCamera +'px');
-        $('.camera').css('height',wHCameraSize +'px');
+        
         $('.camera').css('width',wWCamera +'px');
         $('.bottle-saport').css('height',wHCameraImage +'px');
-       
-        $('.pic-camera-cover').css('height',wHCameraCover +'px');
-        $('.pic-camera-cover').css('width',wWCameraCover +'px');
+
         $('#navbar').css('height',60 +'px');
       
     });
