@@ -2917,7 +2917,7 @@ fieldset:disabled a.btn {
   width: 80%;
   padding: 5px 0;
   margin-top: 1rem;
-  margin-bottom: 2rem; 
+  margin-bottom: 0; 
   background-color:#FEF2ED;
   border:solid 0.1rem;
   border-radius: 5px;
